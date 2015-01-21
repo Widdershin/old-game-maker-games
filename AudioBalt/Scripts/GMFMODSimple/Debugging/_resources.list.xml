@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources>
-  <resource name="FMODGetNumInstances" type="RESOURCE"/>
-  <resource name="FMODSoundIsStreamed" type="RESOURCE"/>
-  <resource name="FMODSoundInstanciate" type="RESOURCE"/>
-  <resource name="FMODSoundIs3d" type="RESOURCE"/>
-  <resource name="FMODErrorStr" type="RESOURCE"/>
-  <resource name="FMODGetLastError" type="RESOURCE"/>
-</resources>

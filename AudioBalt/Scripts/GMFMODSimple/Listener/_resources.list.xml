@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources>
-  <resource name="FMODListenerSetNumber" type="RESOURCE"/>
-  <resource name="FMODListenerSet3dPosition" type="RESOURCE"/>
-  <resource name="FMODListenerSet3dPositionEx" type="RESOURCE"/>
-  <resource name="FMODListenerHearsDistanceOnly" type="RESOURCE"/>
-  <resource name="FMODSetDopplerFPS" type="RESOURCE"/>
-  <resource name="FMODSetWorldScale" type="RESOURCE"/>
-</resources>

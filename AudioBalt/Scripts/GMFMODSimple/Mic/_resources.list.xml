@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources>
-  <resource name="FMODCreateSoundFromMicInput" type="RESOURCE"/>
-  <resource name="FMODMicStart" type="RESOURCE"/>
-  <resource name="FMODMicStop" type="RESOURCE"/>
-</resources>

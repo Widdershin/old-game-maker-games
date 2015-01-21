@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources>
-  <resource name="FMODSoundPlay" type="RESOURCE"/>
-  <resource name="FMODSoundLoop" type="RESOURCE"/>
-  <resource name="FMODSoundPlay3d" type="RESOURCE"/>
-  <resource name="FMODSoundLoop3d" type="RESOURCE"/>
-</resources>
