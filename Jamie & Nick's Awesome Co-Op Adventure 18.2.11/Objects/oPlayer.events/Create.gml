@@ -1,0 +1,15 @@
+gunid = instance_create(x,y,oGun)
+wmove = vk_up
+amove = vk_left
+smove = vk_down
+dmove = vk_right
+usekey = ord("M")
+joystick = false
+gunload = 20
+guntime = gunload
+aimbot = false
+target = -1
+color = c_blue
+colord = color
+image_speed = 0
+grapple = false

@@ -1,0 +1,5 @@
+draw_sprite(sprite_index,-1,x,y)
+draw_set_font(fBasic)
+draw_set_color(c_white)
+draw_set_valign(fa_middle)
+draw_text(x+5,y,keyboard_string)

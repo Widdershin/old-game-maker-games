@@ -1,0 +1,2 @@
+cansee = false
+haveseen = true

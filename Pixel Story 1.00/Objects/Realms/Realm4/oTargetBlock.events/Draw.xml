@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if flip = -1
+{
+    yOff = sprite_height
+}
+else
+{
+    yOff = 0
+}
+draw_sprite_ext(sprite_index, 0, x, y+yOff, 1, flip, 0, c_white, 1)
+draw_sprite_ext(sprite_index, 1, x, y+yOff, 1, flip, 0, color, 1)
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="1">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">x = floor(mouse_x/48)*48
+y = floor(mouse_y/48)*48
+hoverID = instance_position(x,y,oTile)
+hoverID2 = instance_position(x,y,oEnemy)
+if hoverID != -4
+{
+    if hoverID.object_index = roomPath
+    {
+        image_index = 1
+    }
+    if hoverID.object_index = roomWall
+    {
+        image_index = 0
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

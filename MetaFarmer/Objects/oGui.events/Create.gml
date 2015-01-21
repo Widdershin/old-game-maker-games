@@ -1,0 +1,3 @@
+globalvar equip;
+equip = oHoe
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if !onGround &amp;&amp; vspeed != 0
+{
+    if instance_place(x, y+vspeed+1, oPlatform)
+    {
+        move_contact_solid(point_direction(0,0,0,vspeed),vspeed)
+        if abs(vspeed)
+        {
+            gravity = 0
+            onGround = true
+        }
+        vspeed = 0
+    }
+}
+
+if onGround
+{
+    if !instance_place(x,y+1, oPlatform)
+    {
+        onGround = false
+        gravity = desGravity
+    }
+    
+    if keyboard_check(ord("D"))
+    {
+        hspeed = moveSpeed
+        xscale = 1
+    }
+    else if keyboard_check(ord("A"))
+    {
+        hspeed = -moveSpeed
+        xscale = -1
+    }
+    else
+    {
+        hspeed = 0
+    }
+
+}
+
+if keyboard_check_released(ord("R"))
+    game_restart()
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

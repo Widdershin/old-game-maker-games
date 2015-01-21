@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sprite1" type="RESOURCE"/>
+  <resource name="colorbox2" type="RESOURCE"/>
+  <resource name="colorbox" type="RESOURCE"/>
+</resources>

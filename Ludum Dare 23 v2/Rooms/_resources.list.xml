@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="rPreInro" type="RESOURCE"/>
+  <resource name="rIntro" type="RESOURCE"/>
+  <resource name="rTown" type="RESOURCE"/>
+  <resource name="rRealm1" type="RESOURCE"/>
+  <resource name="rRealm2" type="RESOURCE"/>
+  <resource name="rRealm3" type="RESOURCE"/>
+  <resource name="rRealm4" type="RESOURCE"/>
+  <resource name="rRealm5" type="RESOURCE"/>
+  <resource name="rRealm6" type="RESOURCE"/>
+  <resource name="rOuttro" type="RESOURCE"/>
+</resources>

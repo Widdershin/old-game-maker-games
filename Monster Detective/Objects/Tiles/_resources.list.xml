@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oTile" type="RESOURCE"/>
+  <resource name="oGrass" type="RESOURCE"/>
+  <resource name="oPath" type="RESOURCE"/>
+</resources>

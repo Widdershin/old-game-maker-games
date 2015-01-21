@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oInit" type="RESOURCE"/>
+  <resource name="oBoid" type="RESOURCE"/>
+  <resource name="oControl" type="RESOURCE"/>
+  <resource name="oCursor" type="RESOURCE"/>
+</resources>

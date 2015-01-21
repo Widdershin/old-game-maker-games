@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="create_part" type="RESOURCE"/>
+  <resource name="relative" type="RESOURCE"/>
+  <resource name="absolute" type="RESOURCE"/>
+  <resource name="clamp" type="RESOURCE"/>
+  <resource name="print" type="RESOURCE"/>
+</resources>

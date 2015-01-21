@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">
+/*
+potatoes = 1
+
+if potatoes = 1
+{
+    show_message("Hello World.")    
+}
+*/
+globalvar enemyKillCount;
+enemyKillCount = 1
+bulletDir = 0
+rightspeed = 0
+leftspeed = 0
+enemySpawn = irandom(300)+150
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

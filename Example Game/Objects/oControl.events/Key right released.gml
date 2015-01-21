@@ -1,0 +1,1 @@
+rightspeed = 0

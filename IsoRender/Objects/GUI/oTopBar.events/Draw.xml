@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">draw_sprite(sprite_index,-1,x,y)
+if renderTypeIso = false
+{
+    renderTypeString = "Tile"
+}
+if renderTypeIso = true
+{
+    renderTypeString = "Iso"
+}
+draw_text(x+68,y+4,"Render Type = "+renderTypeString)
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if keyboard_check_pressed(vk_f1)
+{
+    if console_enabled = false
+    {
+        console_enabled = true
+        keyboard_string = ""
+    }
+    else if console_enabled = true
+    {
+    console_enabled = false
+    keyboard_string = ""
+    }
+}
+if keyboard_check_pressed(vk_up)
+{
+    keyboard_string = lastcmd
+}
+if keyboard_check_pressed(vk_enter) &amp;&amp; console_enabled
+{
+    lastcmd = keyboard_string
+    execute_string(keyboard_string)
+    console_enabled = false
+    keyboard_string = ""
+}
+
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

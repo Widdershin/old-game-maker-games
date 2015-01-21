@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">globalvar ts, minimap;
+ts = 32
+minimap = surface_create(room_height/ts,room_width/ts)
+fail = 0
+instance_create(2,-157,oMessages)
+view_visible[1] = true
+view_yview[1] = -160
+view_wview[1] = 640
+view_hview[1] = 160
+view_yport[1] = 480
+if room = rDungeon
+{
+    gengrid()
+    gendungeon(45)
+}
+grid = false
+point = false
+aigrid()
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

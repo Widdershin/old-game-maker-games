@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="cStop" type="RESOURCE"/>
+  <resource name="cStop1" type="RESOURCE"/>
+  <resource name="cJump" type="RESOURCE"/>
+  <resource name="cDisarm" type="RESOURCE"/>
+  <resource name="cHeal" type="RESOURCE"/>
+  <resource name="cRight" type="RESOURCE"/>
+  <resource name="cLeft" type="RESOURCE"/>
+  <resource name="cLevitate" type="RESOURCE"/>
+</resources>

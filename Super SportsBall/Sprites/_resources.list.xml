@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sPlayer" type="RESOURCE"/>
+  <resource name="oBall" type="RESOURCE"/>
+  <resource name="oWall" type="RESOURCE"/>
+  <resource name="sIndicator" type="RESOURCE"/>
+  <resource name="sPickMeUp" type="RESOURCE"/>
+  <resource name="sPickYouUp" type="RESOURCE"/>
+  <resource name="sGoal" type="RESOURCE"/>
+  <resource name="sLaser" type="RESOURCE"/>
+  <resource name="sSpawn" type="RESOURCE"/>
+</resources>

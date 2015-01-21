@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="bmMain" type="RESOURCE"/>
+  <resource name="soStep" type="RESOURCE"/>
+  <resource name="soRocketLock" type="RESOURCE"/>
+  <resource name="soJump" type="RESOURCE"/>
+  <resource name="soRocket" type="RESOURCE"/>
+  <resource name="soExplode" type="RESOURCE"/>
+  <resource name="soLaser" type="RESOURCE"/>
+  <resource name="soLaserStop" type="RESOURCE"/>
+  <resource name="soScore" type="RESOURCE"/>
+</resources>

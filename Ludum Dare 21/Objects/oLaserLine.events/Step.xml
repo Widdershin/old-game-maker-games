@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if timer = 0
+{
+    if on
+    {
+        on = false
+        sound_play(soLaserStop)
+    }
+    else if !on
+    {
+        on = true
+        sound_play(soLaser)
+    }
+    timer = 180
+}
+timer -= 1
+if y &gt; room_height
+{
+    with(leftlaser)
+    {
+        instance_destroy()
+    }
+    with(rightlaser)
+    {
+        instance_destroy()
+    }
+    instance_destroy()
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

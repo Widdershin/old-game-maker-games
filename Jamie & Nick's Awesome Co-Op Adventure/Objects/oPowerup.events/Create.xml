@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">xscale = 1
+yscale = 1
+image_angle = 0
+player = choose(oPlayer1,oPlayer2)
+if player = oPlayer1
+{
+    powerup = irandom(p1pickup[0,0]-1)+1
+}
+if player = oPlayer2
+{
+    powerup = irandom(p2pickup[0,0]-1)+1
+}
+//show_message(string(player)+": "+string(powerup))
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

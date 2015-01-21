@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="rTutorial1" type="RESOURCE"/>
+  <resource name="rTutorial2" type="RESOURCE"/>
+  <resource name="rTutorial3" type="RESOURCE"/>
+  <resource name="rTutorial4" type="RESOURCE"/>
+  <resource name="rTutorial4a" type="RESOURCE"/>
+  <resource name="rTutorial5" type="RESOURCE"/>
+  <resource name="rTutorial6" type="RESOURCE"/>
+  <resource name="rTutorial7" type="RESOURCE"/>
+  <resource name="rTutorial8" type="RESOURCE"/>
+</resources>

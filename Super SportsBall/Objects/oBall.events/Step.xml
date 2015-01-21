@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">//execute_file(object_get_name(object_index) + "Step.txt")
+
+//game_restart()
+
+
+
+/*if instance_place(x, y + vspeed, oWall)
+{
+	movingUp = false
+	if vspeed &lt; 0
+		movingUp = true
+	move_contact_solid(270 - (movingUp * 180), vspeed)
+	vspeed *= -1
+	speed *= collideFric
+}
+
+if instance_place(x + hspeed, y, oWall)
+{
+	movingLeft = false
+	if hspeed &lt; 0
+		movingLeft = true
+	move_contact_solid(0 + (movingLeft * 180), hspeed)
+	hspeed *= -1
+	speed *= collideFric
+}*/
+
+if instance_place(x + hspeed, y + vspeed, oWall)
+{
+	move_contact_solid(direction, speed)
+	wall = instance_place(x, y, oWall)
+	if wall
+	{
+		move_outside_solid(point_direction(wall.x, wall.y, x, y), speed)
+	}
+	if instance_place(x + hspeed, y, oWall)
+	{
+		hspeed *= -collideFric
+	}
+	if instance_place(x, y + vspeed, oWall)
+	{
+		vspeed *= -collideFric
+	}
+}
+
+if instance_place(x, y + vspeed + 1, oWall)
+{	
+	onGround = true
+	if round(vspeed) = 0
+	{
+		gravity = 0
+	}
+}
+else
+{
+	onGround = false
+}
+
+if onGround 
+{
+	hspeed *= hFric
+}
+else
+{
+	gravity = gravityMax
+}
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

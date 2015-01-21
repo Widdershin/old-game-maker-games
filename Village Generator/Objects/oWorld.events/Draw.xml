@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">for(i = 0; i &lt; w; i += 1)
+{
+    for(j = 0; j &lt; h; j += 1)
+    {
+        draw_sprite(world[i,j],-1,w*ts,h*ts)
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

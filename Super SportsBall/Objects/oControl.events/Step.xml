@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">
+if keyboard_check_pressed(ord("R"))
+{
+game_restart()
+}
+
+if mouse_check_button_pressed(mb_right)
+{
+instance_create(mouse_x, mouse_y, oBall)
+
+}
+
+execute_file(object_get_name(object_index) + "Step.txt")
+
+
+//game_restart()
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

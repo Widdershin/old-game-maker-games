@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="getpos" type="RESOURCE"/>
+  <resource name="clearbuffer" type="RESOURCE"/>
+  <resource name="buffsize" type="RESOURCE"/>
+  <resource name="setpos" type="RESOURCE"/>
+  <resource name="bytesleft" type="RESOURCE"/>
+</resources>

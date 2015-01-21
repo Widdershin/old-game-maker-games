@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if room = rEdit
+{
+    globalvar editmode, playmode;
+    editmode = true
+    playmode = false
+}
+
+
+if room = rPlay
+{
+    globalvar editmode, playmode;
+    editmode = false
+    playmode = true
+}
+if !variable_global_exists("firstrun")
+{
+    globalvar vtarspeed, htarspeed, bulletspeed, enemyspawntime, dropmultiplier, difficulty, partcount, firstrun;
+    vtarspeed = 3
+    htarspeed = 3
+    bulletspeed = 6
+    enemyspawntime = random(300)
+    firstrun = false
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

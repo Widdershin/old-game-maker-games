@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">event_inherited()
+
+
+if inTransition
+{
+    if inTransition.open &amp;&amp; inTransition.animDone
+    {
+        x = inTransition.xTarget
+        y = inTransition.yTarget
+        dx = x
+        dy = y
+        inTransition.open = false
+        rTarget = inTransition.rTarget
+        inTransition = false
+        
+        transition_kind = 21
+        room_goto(rTarget)
+        
+        
+    }
+}
+
+
+if canMove &amp;&amp; drawMove &amp;&amp; !inDialogue &amp;&amp; !inTransition
+{
+    oldX = x
+    oldY = y
+    
+    moveX = 0
+    moveY = 0
+    
+    if keyboard_check(upKey)
+    {
+        moveY -= t
+    }
+    if keyboard_check(downKey)
+    {
+        moveY += t
+    }
+    if keyboard_check(leftKey)
+    {
+        moveX -= t
+    }
+    if keyboard_check(rightKey)
+    {
+        moveX += t
+    }
+    
+    door = instance_place(x + moveX, y + moveY, oDoor)
+    if door
+    {
+        door.open = true
+        inTransition = door
+    }
+    
+    NPC = instance_place(x + moveX, y + moveY, pNPC)
+    if NPC
+    {
+        inDialogue = true
+        dialogueInst = NPC
+    }
+    if !instance_place(x + moveX, y + moveY, pSolid)
+    {
+        x += moveX
+        y += moveY
+    }
+    
+    if x != oldX || y != oldY
+    {
+        drawMove = false
+        interp = 0
+    }
+}
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

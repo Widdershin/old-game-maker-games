@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">//oBullet Step
+asteroid = instance_place(x,y,oAsteroid)
+if asteroid
+{
+    with(asteroid)
+    {
+        if life &gt; 1
+        {
+            repeat(2)
+            {
+                asteroid = instance_create(x,y,oAsteroid)
+                asteroid.life = life-1
+            }
+        }
+        instance_destroy()
+    }
+    instance_destroy()
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

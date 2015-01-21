@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">draw_set_color(c_black);
+
+if (instance_number(stick) == 0)
+{
+    draw_text(0, 0, "(Press space to look for joysticks.)");
+}
+else
+{
+    draw_text(0, room_height-18, "Press space to refresh joysticks.");
+}
+
+draw_text(room_width - 32, room_height - 16, fps);</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

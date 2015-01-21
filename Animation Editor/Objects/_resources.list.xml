@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oKey" type="RESOURCE"/>
+  <resource name="oAdd" type="RESOURCE"/>
+  <resource name="oTime" type="RESOURCE"/>
+  <resource name="oBone" type="RESOURCE"/>
+</resources>

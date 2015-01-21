@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oPlayer" type="RESOURCE"/>
+  <resource name="oControl" type="RESOURCE"/>
+  <resource name="oMenu" type="RESOURCE"/>
+  <resource name="oMessages" type="RESOURCE"/>
+  <resource name="oCorridor" type="RESOURCE"/>
+  <resource name="oAttrib" type="RESOURCE"/>
+  <resource name="oHud" type="RESOURCE"/>
+  <resource name="Parents" type="GROUP"/>
+  <resource name="Tiles" type="GROUP"/>
+  <resource name="Enemies" type="GROUP"/>
+</resources>

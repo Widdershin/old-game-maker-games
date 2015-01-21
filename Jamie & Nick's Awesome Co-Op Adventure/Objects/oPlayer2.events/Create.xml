@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">//lol
+wmove = ord("W")
+amove = ord("A")
+smove = ord("S")
+dmove = ord("D")
+usekey = vk_space
+joystick = false
+joystickid = 2
+pressed = 0
+plattime = 60
+platmake = plattime
+color = c_purple
+colord = color
+image_speed = 0
+aimbot = false
+if !joystick_exists(joystickid) {joystick = false}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

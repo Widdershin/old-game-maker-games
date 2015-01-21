@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="conDraw" type="RESOURCE"/>
+  <resource name="conCreate" type="RESOURCE"/>
+  <resource name="conSend" type="RESOURCE"/>
+  <resource name="conInDraw" type="RESOURCE"/>
+  <resource name="conInSend" type="RESOURCE"/>
+  <resource name="conStep" type="RESOURCE"/>
+  <resource name="test" type="RESOURCE"/>
+  <resource name="hi" type="RESOURCE"/>
+</resources>

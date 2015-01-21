@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oControl" type="RESOURCE"/>
+  <resource name="oBackground" type="RESOURCE"/>
+  <resource name="Parents" type="GROUP"/>
+  <resource name="Characters" type="GROUP"/>
+  <resource name="Tiles" type="GROUP"/>
+  <resource name="oHouse" type="RESOURCE"/>
+  <resource name="oHouse2" type="RESOURCE"/>
+  <resource name="oDoor" type="RESOURCE"/>
+  <resource name="oDoor2" type="RESOURCE"/>
+  <resource name="oFloor" type="RESOURCE"/>
+  <resource name="oWall" type="RESOURCE"/>
+  <resource name="oBookShelf" type="RESOURCE"/>
+  <resource name="oSetup" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oGround" type="RESOURCE"/>
+  <resource name="oEraser" type="RESOURCE"/>
+  <resource name="oPlayer" type="RESOURCE"/>
+  <resource name="oGrenade" type="RESOURCE"/>
+  <resource name="oBazooka" type="RESOURCE"/>
+  <resource name="oRocket" type="RESOURCE"/>
+  <resource name="pWeapon" type="RESOURCE"/>
+  <resource name="pAmmo" type="RESOURCE"/>
+  <resource name="oControl" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,5 @@
+sprite_index = choose(schar,schar2,schar3)
+surface_set_target(backsurf)
+draw_sprite(sprite_index,-1,x,y)
+surface_reset_target()
+instance_destroy()

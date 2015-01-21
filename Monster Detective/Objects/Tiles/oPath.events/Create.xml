@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">image_index = 0
+image_speed = 0
+
+t = 32
+
+count = 0
+
+//Checks above
+if instance_place(x, y - t, oPath)
+{
+    image_index += 1
+}
+
+//Checks right
+if instance_place(x + t, y, oPath)
+{
+    image_index += 2
+    count += 1
+}
+
+//Checks below
+if instance_place(x, y + t, oPath)
+{
+    image_index += 4
+    count += 1
+}
+
+//Checks left
+if instance_place(x - t, y, oPath)
+{
+    image_index += 8
+}
+
+//Checks below right
+if instance_place(x + t, y + t, oPath)
+{
+    count += 1
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

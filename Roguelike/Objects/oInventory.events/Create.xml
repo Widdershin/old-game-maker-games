@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">invinit()
+menuitem[0] = "Give Sword"
+menuitem[1] = "Give Helm"
+menuitem[2] = "Give Bow"
+menuitem[3] = "Filter Weapons"
+menucount = 4
+filterwep = false
+cursor = 0
+cursoraim = 0
+equipslot[0] = "Helm"
+equipslot[1] = "Chestplate"
+equipslot[2] = "Belt"
+equipslot[3] = "Leggings"
+equipslot[4] = "Gloves"
+equipslot[5] = "Boots"
+equipslot[6] = "Cloak"
+equipslot[7] = "Main Hand"
+equipslot[8] = "Off Hand"
+equipcount = 9
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

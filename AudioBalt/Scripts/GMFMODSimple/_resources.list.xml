@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="HowToUse" type="RESOURCE"/>
+  <resource name="Known Problems and Questions" type="RESOURCE"/>
+  <resource name="StartOfGame" type="GROUP"/>
+  <resource name="EndStep" type="GROUP"/>
+  <resource name="AddingSounds" type="GROUP"/>
+  <resource name="PlayingSounds" type="GROUP"/>
+  <resource name="SoundInstances" type="GROUP"/>
+  <resource name="Groupings" type="GROUP"/>
+  <resource name="Listener" type="GROUP"/>
+  <resource name="Password" type="GROUP"/>
+  <resource name="Blockers" type="GROUP"/>
+  <resource name="DynaEffects" type="GROUP"/>
+  <resource name="Debugging" type="GROUP"/>
+  <resource name="Helpers" type="GROUP"/>
+  <resource name="webstream" type="GROUP"/>
+  <resource name="Mic" type="GROUP"/>
+</resources>

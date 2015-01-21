@@ -1,0 +1,10 @@
+pause = true
+brate = rate
+rate = 0
+background_vspeed[0] = rate
+oPlatform.vspeed = rate
+oScoreBoard.vspeed = rate
+oRocketLauncher.vspeed = rate
+oPlayer.speed = 0
+oWall.speed = 0
+oPlayer.gravity = 0

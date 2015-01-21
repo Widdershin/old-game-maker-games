@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="blockplace" type="RESOURCE"/>
+  <resource name="linecheck" type="RESOURCE"/>
+  <resource name="lineclear" type="RESOURCE"/>
+</resources>

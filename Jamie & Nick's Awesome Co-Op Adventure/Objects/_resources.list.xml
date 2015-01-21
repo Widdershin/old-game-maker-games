@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oControl" type="RESOURCE"/>
+  <resource name="oPlayer" type="RESOURCE"/>
+  <resource name="oPlayer1" type="RESOURCE"/>
+  <resource name="oPlayer2" type="RESOURCE"/>
+  <resource name="Parents" type="GROUP"/>
+  <resource name="Enemies" type="GROUP"/>
+  <resource name="Powerups" type="GROUP"/>
+  <resource name="Equipment" type="GROUP"/>
+  <resource name="Guns" type="GROUP"/>
+  <resource name="oPowerup" type="RESOURCE"/>
+  <resource name="oScore" type="RESOURCE"/>
+  <resource name="oScale" type="RESOURCE"/>
+</resources>

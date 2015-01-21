@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oControl" type="RESOURCE"/>
+  <resource name="oPlayer" type="RESOURCE"/>
+  <resource name="oTracker" type="RESOURCE"/>
+  <resource name="oFireball" type="RESOURCE"/>
+  <resource name="Realms" type="GROUP"/>
+  <resource name="Effects" type="GROUP"/>
+  <resource name="Generic Level" type="GROUP"/>
+  <resource name="oIntro" type="RESOURCE"/>
+  <resource name="oOuttro" type="RESOURCE"/>
+  <resource name="oPreIntro" type="RESOURCE"/>
+  <resource name="oGamepad" type="RESOURCE"/>
+</resources>

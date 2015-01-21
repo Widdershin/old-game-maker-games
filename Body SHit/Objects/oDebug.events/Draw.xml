@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">for (i = 0; i &lt; ds_stack_size(debugStack); i += 1)
+{
+    draw_set_color(c_white)
+    draw_text(2, 14 * i, ds_stack_pop(debugStack))   
+}
+if mouse_check_button(mb_right)
+{
+
+    screen_save("screen_"+string(gifCount)+"_"+string(frameCount)+".png")
+    frameCount += 1   
+    print("recording")
+}
+if mouse_check_button_released(mb_right)
+{
+    gifCount += 1
+    frameCount = 0
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="pTile" type="RESOURCE"/>
+  <resource name="pWall" type="RESOURCE"/>
+  <resource name="pEnemy" type="RESOURCE"/>
+</resources>

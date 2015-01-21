@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sLab" type="RESOURCE"/>
+  <resource name="sLabPath" type="RESOURCE"/>
+  <resource name="sRobot" type="RESOURCE"/>
+  <resource name="sZap" type="RESOURCE"/>
+  <resource name="sLabRat" type="RESOURCE"/>
+  <resource name="sCheese" type="RESOURCE"/>
+  <resource name="sTestTube" type="RESOURCE"/>
+  <resource name="sRobotArm" type="RESOURCE"/>
+</resources>

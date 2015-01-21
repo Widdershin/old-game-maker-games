@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="rBase" type="RESOURCE"/>
+  <resource name="Tutorial" type="GROUP"/>
+  <resource name="rLevel1" type="RESOURCE"/>
+  <resource name="rLevel2" type="RESOURCE"/>
+  <resource name="rLevel3" type="RESOURCE"/>
+  <resource name="rLevel4" type="RESOURCE"/>
+  <resource name="rLevel5" type="RESOURCE"/>
+  <resource name="rLevel6" type="RESOURCE"/>
+  <resource name="rLevel7" type="RESOURCE"/>
+</resources>

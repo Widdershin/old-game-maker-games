@@ -1,0 +1,1 @@
+selfhealth -= 1

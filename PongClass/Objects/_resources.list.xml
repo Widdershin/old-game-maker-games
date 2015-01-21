@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oBall" type="RESOURCE"/>
+  <resource name="oPaddle1" type="RESOURCE"/>
+  <resource name="oPaddle2" type="RESOURCE"/>
+  <resource name="oScore" type="RESOURCE"/>
+</resources>

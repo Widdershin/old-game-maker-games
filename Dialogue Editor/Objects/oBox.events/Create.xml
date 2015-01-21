@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">width = 250
+height = 0
+
+minHeight = 28
+
+xOff = 5
+yOff = 5
+
+bColor = c_white
+bColor2 = c_aqua
+tColor = c_black
+oColor = c_black
+aColor = c_white
+
+text = ""
+
+held = false
+
+editing = false
+mouseOver = false
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

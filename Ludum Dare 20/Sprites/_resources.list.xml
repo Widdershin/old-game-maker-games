@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource filename="sGround_old" name="sGround.old" type="RESOURCE"/>
+  <resource name="sGround" type="RESOURCE"/>
+  <resource name="sPaving" type="RESOURCE"/>
+  <resource name="Enemies" type="GROUP"/>
+  <resource name="Units" type="GROUP"/>
+  <resource name="Misc" type="GROUP"/>
+  <resource name="Buttons" type="GROUP"/>
+  <resource name="Commands" type="GROUP"/>
+  <resource name="Level Pieces" type="GROUP"/>
+  <resource name="sMask" type="RESOURCE"/>
+  <resource name="sMask2" type="RESOURCE"/>
+  <resource name="sMask3" type="RESOURCE"/>
+  <resource name="sGui" type="RESOURCE"/>
+  <resource name="sTextBox" type="RESOURCE"/>
+  <resource name="sTextBoxEnd" type="RESOURCE"/>
+  <resource name="sTextBoxSlice" type="RESOURCE"/>
+  <resource name="sTorch" type="RESOURCE"/>
+</resources>

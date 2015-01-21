@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="explosion1" type="RESOURCE"/>
+  <resource name="explosion2" type="RESOURCE"/>
+  <resource name="explosion3" type="RESOURCE"/>
+  <resource name="shoot1" type="RESOURCE"/>
+  <resource name="step1" type="RESOURCE"/>
+  <resource name="step2" type="RESOURCE"/>
+  <resource name="step3" type="RESOURCE"/>
+  <resource name="throw1" type="RESOURCE"/>
+  <resource name="Music" type="GROUP"/>
+  <resource name="bounce1" type="RESOURCE"/>
+</resources>

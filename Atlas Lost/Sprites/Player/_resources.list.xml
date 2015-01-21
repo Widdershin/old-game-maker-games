@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sTorso" type="RESOURCE"/>
+  <resource name="sLeg" type="RESOURCE"/>
+  <resource name="sFoot" type="RESOURCE"/>
+  <resource name="sArm" type="RESOURCE"/>
+  <resource name="sForeArm" type="RESOURCE"/>
+</resources>

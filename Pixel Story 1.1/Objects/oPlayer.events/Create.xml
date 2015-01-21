@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">inputDelay = 5
+inputWait = 0
+portalTime = 0
+
+shootCooldown = 30
+shootWait = 0
+
+hp = 5
+
+t = 16
+
+dX = x div t * t
+dY = y div t * t
+
+hit = 0
+hitAnim = -1
+
+lavaCooldown = 15
+
+portalLock = false
+
+
+
+deadzone = 0.35
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

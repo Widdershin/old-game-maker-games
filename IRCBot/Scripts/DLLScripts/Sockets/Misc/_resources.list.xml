@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="lastinIP" type="RESOURCE"/>
+  <resource name="lastinPort" type="RESOURCE"/>
+  <resource name="setsync" type="RESOURCE"/>
+  <resource name="closesocket" type="RESOURCE"/>
+  <resource name="socklasterror" type="RESOURCE"/>
+  <resource name="myhost" type="RESOURCE"/>
+  <resource name="compareip" type="RESOURCE"/>
+  <resource name="sockexit" type="RESOURCE"/>
+  <resource name="sockstart" type="RESOURCE"/>
+  <resource name="hostip" type="RESOURCE"/>
+  <resource name="getsockid" type="RESOURCE"/>
+</resources>

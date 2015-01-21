@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">/*
+    Declares starting variables required for collision and drawing
+*/
+onground = false
+rot = 0
+rotdir = 0
+hspeed = 1
+mask_index = sMask
+xscale = 1
+prevexist = false
+prevscale = 0
+counter = 0
+fit = false
+levitate = false
+root = 0
+healing = 0
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

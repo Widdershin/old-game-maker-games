@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">globalvar wDetail, hDetail, grid, updatePathing, statementList;
+wDetail = 5
+hDetail = 5
+grid = mp_grid_create(0, 0, room_width / wDetail, room_height / hDetail, wDetail, hDetail)
+
+pan = false
+
+panSens = 1.5
+
+updatePathing = false
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

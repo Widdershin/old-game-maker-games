@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if r = false
+{
+    path_start(roomTrack,SP/2,0,1)
+    r = true
+}
+if keyboard_check_pressed(ord("K")) &amp;&amp; state = 0
+{
+death()
+}
+if state = 0
+{
+    if HP &lt; 1
+    {
+    death()
+    }
+}
+if state = 1 
+{
+    if rotclock = true
+    {
+        image_angle += 2
+    }
+    
+    else if rotclock = false
+    {
+        image_angle -= 2
+    }
+    
+    if image_angle &gt; 8
+    {
+        rotclock = false
+    }
+    
+    if image_angle &lt; -8
+    {
+        rotclock = true
+    }
+}
+
+if state = 2
+{
+    if stateprev != 2
+    {
+        firenext = firedelay
+    }
+    if damage &lt; 30 damage = 30
+    if damage &gt; 300 damage = 300
+    if firedelay &lt; 30 firedelay = 30
+    if firedelay &gt; 300 firedelay = 300
+    image_angle = 0
+    speed = 0
+    if firenext &gt; 0 firenext -= 1
+    temp = 0
+    lowdis = 100000
+    low = 0
+    repeat(instance_number(oEnemy))
+    {
+        cur = instance_find(oEnemy,temp)
+        curdis = point_distance(x,y,cur.x,cur.y)
+        if cur.state = 0 &amp;&amp; curdis &lt; lowdis
+        {
+            low = cur
+            lowdis = curdis
+        }
+        temp += 1
+    }
+    if firenext &lt; 1 &amp;&amp; lowdis &gt; 0 &amp;&amp; lowdis &lt; range
+    {
+        fire()
+    }
+}
+stateprev = state
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

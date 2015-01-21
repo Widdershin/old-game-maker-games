@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if firecool &gt; 0
+{
+    firecool -= 1
+}
+if image_angle &gt; 360
+{
+    image_angle -= 360
+}
+if image_angle &lt; 360
+{
+    image_angle += 360
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,1 @@
+movspeed = 6

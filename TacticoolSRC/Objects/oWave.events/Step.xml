@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if next &lt; 0 &amp;&amp; count &gt; 0
+{
+    instance_create(-100,-100,object)
+    count -= 1
+    next = 32
+}
+next -= 1
+if count &lt; 1 {instance_destroy()}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

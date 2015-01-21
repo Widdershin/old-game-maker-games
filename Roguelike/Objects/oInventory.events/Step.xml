@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if keyboard_check_pressed(vk_down)
+{
+    cursor += 1
+}
+if keyboard_check_pressed(vk_up)
+{
+    cursor -= 1
+}
+if cursor &lt; 0 {cursor = equipcount-1}
+if cursor &gt; equipcount-1{cursor = 0}
+/*
+if filterwep
+{
+    if cursor &lt; 0 {cursor = ds_list_size(invid)-1-(temp2-temp)}
+    if cursor &gt; ds_list_size(invid)-1-(temp2-temp){cursor = 0}
+}
+else
+{
+    if cursor &lt; 0 {cursor = ds_list_size(invid)-1}
+    if cursor &gt; ds_list_size(invid)-1{cursor = 0}
+}*/
+if keyboard_check_pressed(ord("1"))
+{
+    invgive("wepwoodswrd")
+}
+if keyboard_check_pressed(ord("2"))
+{
+    invgive("armwoodhelm")
+}
+if keyboard_check_pressed(ord("3"))
+{
+    invgive("wepdiambow")
+}
+if keyboard_check_pressed(ord("4"))
+{
+    if !filterwep {filterwep = true}
+    else {filterwep = false}
+}
+if keyboard_check(vk_enter)
+{
+show_message(invreadind(cursoraim))
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

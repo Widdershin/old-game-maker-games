@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">inputDelay = 6
+inputWait = 0
+
+shootDelay = s + random(s)
+shootWait = shootDelay
+
+if !variable_local_exists('moveDir')
+{
+    moveDir = 0
+}
+rotDir = 1
+
+hpMax = 15
+hp = hpMax
+
+image_speed = 0
+
+hitTime =  0
+
+color = c_white
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

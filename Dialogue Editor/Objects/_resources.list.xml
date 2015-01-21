@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oControl" type="RESOURCE"/>
+  <resource name="oBox" type="RESOURCE"/>
+  <resource name="oStatement" type="RESOURCE"/>
+  <resource name="oResponse" type="RESOURCE"/>
+  <resource name="oAddButton" type="RESOURCE"/>
+</resources>

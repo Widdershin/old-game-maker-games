@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sWall" type="RESOURCE"/>
+  <resource name="sStart" type="RESOURCE"/>
+  <resource name="sEnd" type="RESOURCE"/>
+  <resource name="sMove" type="RESOURCE"/>
+</resources>

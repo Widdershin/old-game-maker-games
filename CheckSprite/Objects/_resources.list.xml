@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oTest" type="RESOURCE"/>
+  <resource name="oControl" type="RESOURCE"/>
+  <resource name="oPoint" type="RESOURCE"/>
+  <resource name="oCol" type="RESOURCE"/>
+</resources>

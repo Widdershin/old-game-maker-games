@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="dllinit" type="RESOURCE"/>
+  <resource name="dllfree" type="RESOURCE"/>
+  <resource name="Sockets" type="GROUP"/>
+  <resource name="Buffer" type="GROUP"/>
+  <resource name="Utilities" type="GROUP"/>
+</resources>

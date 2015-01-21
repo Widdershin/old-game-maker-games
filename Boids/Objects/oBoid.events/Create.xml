@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">motion = 0
+angle = 0
+
+r = random_range(redlow,redhigh)
+g = random_range(greenlow,greenhigh)
+b = random_range(bluelow,bluehigh)
+color = make_color_rgb(r,g,b)
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

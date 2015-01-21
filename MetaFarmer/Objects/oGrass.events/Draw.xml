@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if x &gt; view_xview[0]-32 and x &lt; view_xview[0]+view_wport[0] and  y &gt; view_yview[0]-32 and y &lt; view_yview[0]+view_hport[0]
+{
+draw_sprite(sprite_index,image_index,x,y)
+draw_set_valign(fa_middle)
+draw_set_halign(fa_center)
+if overlay = true
+{
+    draw_set_font(-1)
+    draw_text(x+16,y+16,string(image_index))
+    if keyboard_check(vk_alt)
+    {
+        draw_set_font(fSmall)
+        draw_text(x+15,y+5,string(id))
+    }
+}
+if grid
+{
+    draw_line(x,y,x+tS,y)
+    draw_line(x,y,x,y+tS)
+}
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

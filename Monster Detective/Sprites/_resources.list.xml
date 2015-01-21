@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sPlayer" type="RESOURCE"/>
+  <resource name="sNPC" type="RESOURCE"/>
+  <resource name="sGrass" type="RESOURCE"/>
+  <resource name="sGrass2" type="RESOURCE"/>
+  <resource name="sPath" type="RESOURCE"/>
+  <resource name="sPathCorner" type="RESOURCE"/>
+  <resource name="sHouse" type="RESOURCE"/>
+  <resource name="sHouse2" type="RESOURCE"/>
+  <resource name="sDoor" type="RESOURCE"/>
+  <resource name="sDoor2" type="RESOURCE"/>
+  <resource name="sFloor" type="RESOURCE"/>
+  <resource name="sFloor2" type="RESOURCE"/>
+  <resource name="sWall" type="RESOURCE"/>
+  <resource name="sBookShelf" type="RESOURCE"/>
+</resources>

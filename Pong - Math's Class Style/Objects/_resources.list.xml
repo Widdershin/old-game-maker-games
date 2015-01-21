@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oPlayer" type="RESOURCE"/>
+  <resource name="oPlayer2" type="RESOURCE"/>
+  <resource name="oBall" type="RESOURCE"/>
+  <resource name="oWall" type="RESOURCE"/>
+  <resource name="oCounter" type="RESOURCE"/>
+</resources>

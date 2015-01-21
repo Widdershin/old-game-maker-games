@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oPathButton" type="RESOURCE"/>
+  <resource name="oTimescale" type="RESOURCE"/>
+  <resource name="oBuildButton" type="RESOURCE"/>
+  <resource name="oHireButton" type="RESOURCE"/>
+  <resource name="oContractButton" type="RESOURCE"/>
+  <resource name="oBar" type="RESOURCE"/>
+  <resource name="oTile" type="RESOURCE"/>
+  <resource name="oHireTile" type="RESOURCE"/>
+  <resource name="oMenuGo" type="RESOURCE"/>
+</resources>

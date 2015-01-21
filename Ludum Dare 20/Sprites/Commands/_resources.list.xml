@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sStop" type="RESOURCE"/>
+  <resource name="sStop1" type="RESOURCE"/>
+  <resource name="sHeal" type="RESOURCE"/>
+  <resource name="sDisarm" type="RESOURCE"/>
+  <resource name="sJump" type="RESOURCE"/>
+  <resource name="sLeft" type="RESOURCE"/>
+  <resource name="sRight" type="RESOURCE"/>
+  <resource name="sLevitate" type="RESOURCE"/>
+</resources>

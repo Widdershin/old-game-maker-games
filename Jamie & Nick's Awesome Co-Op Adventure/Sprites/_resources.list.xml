@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sPlayer" type="RESOURCE"/>
+  <resource name="sPlayer2" type="RESOURCE"/>
+  <resource name="sPlatform" type="RESOURCE"/>
+  <resource name="Powerups" type="GROUP"/>
+  <resource name="Weapons" type="GROUP"/>
+  <resource name="Enemies" type="GROUP"/>
+  <resource name="sBullet" type="RESOURCE"/>
+  <resource name="sRain" type="RESOURCE"/>
+  <resource name="sCursor" type="RESOURCE"/>
+  <resource name="sPowerup" type="RESOURCE"/>
+</resources>

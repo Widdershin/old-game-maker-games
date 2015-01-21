@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oStopButton" type="RESOURCE"/>
+  <resource name="oStop1Button" type="RESOURCE"/>
+  <resource name="oJumpButton" type="RESOURCE"/>
+  <resource name="oDisarmButton" type="RESOURCE"/>
+  <resource name="oRightButton" type="RESOURCE"/>
+  <resource name="oLeftButton" type="RESOURCE"/>
+  <resource name="oDoorButton" type="RESOURCE"/>
+  <resource name="oHealButton" type="RESOURCE"/>
+  <resource name="oLevitateButton" type="RESOURCE"/>
+  <resource name="oRestartButton" type="RESOURCE"/>
+  <resource name="oMenuButton" type="RESOURCE"/>
+  <resource name="oButtonButton" type="RESOURCE"/>
+  <resource name="oButton" type="RESOURCE"/>
+  <resource name="oPlayButton" type="RESOURCE"/>
+  <resource name="oTextBox" type="RESOURCE"/>
+  <resource name="Goal" type="RESOURCE"/>
+</resources>

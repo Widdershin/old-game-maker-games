@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="FMODAllStop" type="RESOURCE"/>
+  <resource name="FMODGroupStop" type="RESOURCE"/>
+  <resource name="FMODMasterSetVolume" type="RESOURCE"/>
+  <resource name="FMODGroupSetVolume" type="RESOURCE"/>
+  <resource name="FMODGroupGetVolume" type="RESOURCE"/>
+  <resource name="FMODGroupSetPitch" type="RESOURCE"/>
+  <resource name="FMODGroupGetPitch" type="RESOURCE"/>
+  <resource name="FMODGroupSetPaused" type="RESOURCE"/>
+  <resource name="FMODGroupGetPaused" type="RESOURCE"/>
+  <resource name="FMODGroupSetMuted" type="RESOURCE"/>
+  <resource name="FMODGroupGetMuted" type="RESOURCE"/>
+  <resource name="FMODGroupSetFrequency" type="RESOURCE"/>
+  <resource name="FMODGroupSetPan" type="RESOURCE"/>
+  <resource name="FMODGroupFadeVolume" type="RESOURCE"/>
+  <resource name="FMODGroupFadePitch" type="RESOURCE"/>
+  <resource name="FMODGroupFadePan" type="RESOURCE"/>
+  <resource name="FMODGroupGetWaveSnapshot" type="RESOURCE"/>
+  <resource name="FMODGroupGetSpectrumSnapshot" type="RESOURCE"/>
+  <resource name="FMODGroupGetWaveSnapshot2" type="RESOURCE"/>
+  <resource name="FMODGroupGetSpectrumSnapshot2" type="RESOURCE"/>
+</resources>

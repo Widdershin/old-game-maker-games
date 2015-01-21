@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if mplay_player_find() != count {show_message(string(mplay_player_name(count+1))+" connected.")}
+count = mplay_player_find()
+if keyboard_check_pressed(ord("T"))
+{
+    message = get_string("Message: ",0)
+    mplay_message_send(0,0,message)
+}
+if mplay_message_receive(0)
+{
+    show_message(mplay_message_name()+mplay_message_value())
+}
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

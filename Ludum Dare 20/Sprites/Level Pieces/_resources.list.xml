@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sDoor" type="RESOURCE"/>
+  <resource name="sEntrance" type="RESOURCE"/>
+  <resource name="sNext" type="RESOURCE"/>
+  <resource name="sSpearTrap" type="RESOURCE"/>
+  <resource name="sLevitateSquare" type="RESOURCE"/>
+  <resource name="sPressButton" type="RESOURCE"/>
+  <resource name="sGate" type="RESOURCE"/>
+  <resource name="sSpikes" type="RESOURCE"/>
+  <resource name="sBlood" type="RESOURCE"/>
+  <resource name="sBloodSplat" type="RESOURCE"/>
+</resources>

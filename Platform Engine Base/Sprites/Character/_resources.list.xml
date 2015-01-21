@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sStandLeft" type="RESOURCE"/>
+  <resource name="sStandRight" type="RESOURCE"/>
+  <resource name="sRunLeft" type="RESOURCE"/>
+  <resource name="sRunRight" type="RESOURCE"/>
+  <resource name="sDuckLeft" type="RESOURCE"/>
+  <resource name="sDuckRight" type="RESOURCE"/>
+  <resource name="sLookLeft" type="RESOURCE"/>
+  <resource name="sLookRight" type="RESOURCE"/>
+  <resource name="sClimbUp" type="RESOURCE"/>
+  <resource name="sJumpLeft" type="RESOURCE"/>
+  <resource name="sJumpRight" type="RESOURCE"/>
+  <resource name="sFallLeft" type="RESOURCE"/>
+  <resource name="sFallRight" type="RESOURCE"/>
+  <resource name="sDead" type="RESOURCE"/>
+  <resource name="sFlyLeft" type="RESOURCE"/>
+  <resource name="sFlyRight" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Realm1" type="GROUP"/>
+  <resource name="Realm2" type="GROUP"/>
+  <resource name="Realm3" type="GROUP"/>
+  <resource name="Realm4" type="GROUP"/>
+  <resource name="Realm5" type="GROUP"/>
+  <resource name="Realm6" type="GROUP"/>
+</resources>

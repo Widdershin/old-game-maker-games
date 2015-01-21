@@ -1,0 +1,2 @@
+canmove = true
+tryopen = false

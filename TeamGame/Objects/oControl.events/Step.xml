@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if (phase = plan)
+{
+    mx = mouse_x
+    my = mouse_y
+    mi = instance_position(mx,my,pUnit);
+    if (mouse_check_button_pressed(mb_left))
+    {
+        if mi
+        {
+            mh = mi
+        }
+        else
+        {
+            mh = -4
+        }
+    }
+    if (mouse_check_button_pressed(mb_right) &amp;&amp; mh)
+    {
+        with(mh)
+        {
+            path = path_add()
+            mp_grid_path(pgrid, path, x, y, (mx div ts*ts)+ts/2, (my div ts*ts)+ts/2, 1)
+            path_set_kind(path,1)
+        }
+    }
+    
+    if keyboard_check_pressed(vk_space)
+    {
+        phase = fightstart
+    }
+}
+else if (phase = fightstart)
+{
+    //show_message("TEST")
+    with(pUnit)
+    {
+        if path
+        {
+            path_start(path,1,0,0)
+        }
+    }
+    phase = fight
+}
+else if (phase = fight)
+{
+    
+}
+else if (phase = over)
+{
+
+}
+if debug
+{
+    if keyboard_check_pressed(ord("R"))
+    {
+        game_restart()
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

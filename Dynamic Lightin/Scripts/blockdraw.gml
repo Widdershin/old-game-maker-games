@@ -1,0 +1,7 @@
+draw_sprite(sprite_index,-1,x,y)
+draw_set_alpha(1-luminance)
+draw_set_color(c_black)
+draw_rectangle(x,y,x+31,y+31,0)
+draw_set_alpha(255)
+draw_set_color(c_white)
+//draw_text(x+2,y+2,luminance)

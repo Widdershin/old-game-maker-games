@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">time = 0
+
+nightcol = $412c1d
+dawncol = $277fff
+daycol = $c7fffc
+dayalpha = 0.8
+nightalpha = 0.8
+
+dawntime = 300
+daytime = 400
+dusktime = 900
+nighttime = 1000
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

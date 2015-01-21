@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oControl" type="RESOURCE"/>
+  <resource name="oMenuControl" type="RESOURCE"/>
+  <resource name="oOverlay" type="RESOURCE"/>
+  <resource name="oWave" type="RESOURCE"/>
+  <resource name="oPlay" type="RESOURCE"/>
+  <resource name="oQuit" type="RESOURCE"/>
+  <resource name="oNextWave" type="RESOURCE"/>
+  <resource name="Parents" type="GROUP"/>
+  <resource name="Enemies" type="GROUP"/>
+  <resource name="Tiles" type="GROUP"/>
+  <resource name="Projectiles" type="GROUP"/>
+</resources>

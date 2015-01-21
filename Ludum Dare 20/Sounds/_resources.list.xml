@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="soJump" type="RESOURCE"/>
+  <resource name="soArrow" type="RESOURCE"/>
+  <resource name="soHit" type="RESOURCE"/>
+  <resource name="soPlace" type="RESOURCE"/>
+  <resource name="soBGM" type="RESOURCE"/>
+</resources>

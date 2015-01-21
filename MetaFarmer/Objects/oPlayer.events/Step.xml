@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">var holdCount;
+holdCount = 3
+if targetX = x &amp;&amp; targetY = y
+{
+    hspeed = 0
+    vspeed = 0
+    moving = false
+}
+//Move Left
+if keyboard_check(vk_left) &amp;&amp; moving = false
+{
+    image_angle = 90
+    leftCount += 1
+    if leftCount &gt; holdCount
+    {
+        targetX = x - tS
+        hspeed = -4
+        moving = true
+    }
+}
+else if !keyboard_check(vk_left)
+{
+    leftCount = 0
+}
+//Move Right
+if keyboard_check(vk_right) &amp;&amp; moving = false
+{
+    image_angle = 270
+    rightCount += 1
+    if rightCount &gt; holdCount
+    {
+        targetX = x + tS
+        hspeed = 4
+        moving = true
+    }
+}
+else if !keyboard_check(vk_right)
+{
+    rightCount = 0
+}
+//Move Up
+if keyboard_check(vk_up) &amp;&amp; moving = false
+{
+    image_angle = 0
+    upCount += 1
+    if upCount &gt; holdCount
+    {
+        targetY = y - tS
+        vspeed = -4
+        moving = true
+    }
+}
+else if !keyboard_check(vk_up)
+{
+    upCount = 0
+}
+//Move Down
+if keyboard_check(vk_down) &amp;&amp; moving = false
+{
+    image_angle = 180
+    downCount += 1
+    if downCount &gt; holdCount
+    {
+        targetY = y + tS
+        vspeed = 4
+        moving = true
+    }
+}
+else if !keyboard_check(vk_down)
+{
+    downCount = 0
+}
+// Set the target location
+crossID.x = x+lengthdir_x(24,image_angle+90)
+crossID.y = y+lengthdir_y(24,image_angle+90)
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

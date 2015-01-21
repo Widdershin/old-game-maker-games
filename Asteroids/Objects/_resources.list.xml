@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oShip" type="RESOURCE"/>
+  <resource name="oBullet" type="RESOURCE"/>
+  <resource name="oAsteroid" type="RESOURCE"/>
+  <resource name="oControl" type="RESOURCE"/>
+</resources>

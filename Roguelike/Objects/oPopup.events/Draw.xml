@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if popuptype = "equip"
+{
+    temp = 0
+    repeat(equipcount)
+    {
+        if cursor = temp {draw_text(5,temp*15+15,"&gt; "+equipslot[temp]+": ")}
+                    else {draw_text(5,temp*15+15,"  "+equipslot[temp]+": ")}
+        temp += 1
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

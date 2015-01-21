@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sCharacter" type="RESOURCE"/>
+  <resource name="sWall" type="RESOURCE"/>
+</resources>

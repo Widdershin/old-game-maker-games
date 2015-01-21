@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<constants>
+  <constant name="SP_POLY" value="2"/>
+  <constant name="SP_CIRCLE" value="1"/>
+  <constant name="SP_RECT" value="0"/>
+  <constant name="MS_DYNAMIC" value="1"/>
+  <constant name="MS_STATIC" value="0"/>
+</constants>

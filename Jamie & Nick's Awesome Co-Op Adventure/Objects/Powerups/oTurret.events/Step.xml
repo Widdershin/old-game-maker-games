@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">gunid.x = x
+gunid.y = y+2
+num = instance_number(oEnemy)
+if instance_number(oEnemy)
+{
+    tar = instance_nearest(x,y,oEnemy)
+    tardis = point_distance(x,y,tar.x,tar.y)/6
+    tarang = point_direction(x,y,tar.x+tar.hspeed*tardis,tar.y+tar.vspeed*tardis)
+    gunid.image_angle = tarang
+    with (gunid) {fire()}
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

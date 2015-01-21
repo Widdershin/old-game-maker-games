@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="initground" type="RESOURCE"/>
+  <resource name="drawground" type="RESOURCE"/>
+  <resource name="makeground" type="RESOURCE"/>
+  <resource name="deformground" type="RESOURCE"/>
+</resources>

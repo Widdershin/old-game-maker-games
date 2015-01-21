@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">//debug setup
+globalvar debug;
+debug = true
+
+//pathing setup
+globalvar pgrid, ts;
+ts = 32
+pgrid = mp_grid_create(0, 0, room_width/ts, room_height/ts, ts, ts)
+mp_grid_add_instances(pgrid,oWall,0)
+
+//mouse setup
+globalvar mx, my, mh, mi;
+mx = mouse_x
+my = mouse_y
+mi = instance_position(mx,my,pUnit);
+mh = -4
+
+//phase setup
+globalvar phase, plan, fight, fightstart, over;
+plan  = 0
+fightstart = 1
+fight = 2
+over  = 3
+
+phase = plan
+prevphase = phase
+
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

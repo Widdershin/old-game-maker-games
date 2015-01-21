@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="joystick_exists" type="RESOURCE"/>
+  <resource name="joystick_name" type="RESOURCE"/>
+  <resource name="joystick_axes" type="RESOURCE"/>
+  <resource name="joystick_buttons" type="RESOURCE"/>
+  <resource name="joystick_has_pov" type="RESOURCE"/>
+  <resource name="joystick_direction" type="RESOURCE"/>
+  <resource name="joystick_check_button" type="RESOURCE"/>
+  <resource name="joystick_xpos" type="RESOURCE"/>
+  <resource name="joystick_ypos" type="RESOURCE"/>
+  <resource name="joystick_zpos" type="RESOURCE"/>
+  <resource name="joystick_rpos" type="RESOURCE"/>
+  <resource name="joystick_upos" type="RESOURCE"/>
+  <resource name="joystick_vpos" type="RESOURCE"/>
+  <resource name="joystick_pov" type="RESOURCE"/>
+  <resource name="joy_gmid" type="RESOURCE"/>
+</resources>

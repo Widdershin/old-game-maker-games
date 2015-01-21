@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">globalvar ts, w, h, world, Grass, Path, Floor, Wall;
+
+ts = 32
+
+w = 20
+h = 20
+
+for(i = 0; i &lt; w; i += 1)
+{
+    for(j = 0; j &lt; h; j += 1)
+    {
+        world[i,j] = 0
+    }
+}
+
+Grass = 0
+Path  = 1
+Floor = 2
+Wall  = 3
+
+tile[0] = sGrass
+tile[1] = sPath
+tile[2] = sFloor
+tile[3] = sWall
+
+
+
+generate()
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

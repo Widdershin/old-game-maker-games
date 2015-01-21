@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oGround" type="RESOURCE"/>
+  <resource name="oUnit" type="RESOURCE"/>
+  <resource name="oGUI" type="RESOURCE"/>
+  <resource name="Units" type="GROUP"/>
+  <resource name="GUI" type="GROUP"/>
+  <resource name="Commands" type="GROUP"/>
+  <resource name="Misc" type="GROUP"/>
+  <resource name="Level Pieces" type="GROUP"/>
+  <resource name="oLevelSelectControl" type="RESOURCE"/>
+  <resource name="oLevelButton" type="RESOURCE"/>
+  <resource name="oLiving" type="RESOURCE"/>
+  <resource name="oBuild" type="RESOURCE"/>
+</resources>

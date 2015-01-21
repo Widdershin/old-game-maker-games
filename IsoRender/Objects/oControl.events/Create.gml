@@ -1,0 +1,2 @@
+globalvar renderTypeIso;
+renderTypeIso = false

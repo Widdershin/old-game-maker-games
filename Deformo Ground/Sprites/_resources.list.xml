@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sGround" type="RESOURCE"/>
+  <resource name="sGround2" type="RESOURCE"/>
+  <resource name="sEraser" type="RESOURCE"/>
+  <resource name="sPlayer" type="RESOURCE"/>
+  <resource name="sBazooka" type="RESOURCE"/>
+  <resource name="sGrenade" type="RESOURCE"/>
+  <resource name="sRocket" type="RESOURCE"/>
+  <resource name="sRocketPart" type="RESOURCE"/>
+</resources>

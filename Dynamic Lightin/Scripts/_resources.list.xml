@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="lightinit" type="RESOURCE"/>
+  <resource name="lightstep" type="RESOURCE"/>
+  <resource name="lightdraw" type="RESOURCE"/>
+  <resource name="blockinit" type="RESOURCE"/>
+  <resource name="blockstep" type="RESOURCE"/>
+  <resource name="blockdraw" type="RESOURCE"/>
+  <resource name="lightsysinit" type="RESOURCE"/>
+  <resource name="lightsysdraw" type="RESOURCE"/>
+</resources>

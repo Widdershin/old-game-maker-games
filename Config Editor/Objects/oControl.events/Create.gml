@@ -1,0 +1,12 @@
+ini_open("config.txt")
+ini_write_real("controls","player1.keyjump",vk_up)
+ini_write_real("controls","player1.keyleft",vk_left)
+ini_write_real("controls","player1.keyright",vk_right)
+ini_write_real("controls","player1.gamepad",false)
+ini_write_real("controls","player1.colour",c_blue)
+ini_write_real("controls","player2.keyjump",ord("W"))
+ini_write_real("controls","player2.keyleft",ord("A"))
+ini_write_real("controls","player2.keyright",ord("D"))
+ini_write_real("controls","player2.gamepad",false)
+ini_write_real("controls","player2.color",c_red)
+

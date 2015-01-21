@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if keyboard_check_pressed(vk_left)
+{
+    currentblock.x -= 32
+}
+if keyboard_check_pressed(vk_right)
+{
+    currentblock.x += 32
+}
+if keyboard_check_pressed(vk_down)
+{
+    with(currentblock)
+    {
+        move_contact_all(270,room_height-y-sprite_height)
+        linecheck()
+        currentblock = instance_create(room_width/2,0,oBlock1)
+    }
+}
+if tick &gt; 0
+{
+    tick -= 1
+}
+else
+{
+    tick = tickmax
+    if currentblock.y &lt; room_height-currentblock.sprite_height
+    {
+        currentblock.y += 32
+    }
+    else
+    {
+        linecheck()
+        currentblock = instance_create(room_width/2,0,oBlock1)
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

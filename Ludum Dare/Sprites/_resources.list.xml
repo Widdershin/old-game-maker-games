@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sBullet" type="RESOURCE"/>
+  <resource name="sEnemy" type="RESOURCE"/>
+  <resource name="sDrop" type="RESOURCE"/>
+  <resource name="sStuff" type="RESOURCE"/>
+  <resource name="sShipPart1" type="RESOURCE"/>
+  <resource name="sEditGUI" type="RESOURCE"/>
+</resources>

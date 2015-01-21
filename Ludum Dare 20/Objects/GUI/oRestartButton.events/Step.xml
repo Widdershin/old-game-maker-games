@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">mousedist = distance_to_point(mouse_x,mouse_y)
+if mousedist &lt; 48
+{
+    y = yorig - 24+mousedist/2
+}
+else
+{
+    y = yorig
+}
+if (mouse_check_button_pressed(mb_left)  &amp;&amp; instance_position(mouse_x,mouse_y,id) || keyboard_check_pressed(ord(key))) &amp;&amp; !mouseheld 
+{
+    room_restart()
+}
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

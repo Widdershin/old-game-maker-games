@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if mouse_x &gt; x and mouse_x &lt; x + width and mouse_y &gt; y and mouse_y &lt; y + height
+{
+    mouseOver = true
+}
+else
+{
+    mouseOver = false
+}
+
+
+if mouse_check_button_released(mb_right)
+{
+    if mouseOver
+    {
+        if editing
+        {
+            editing = false
+            text = keyboard_string
+        }
+        else if !editing
+        {
+            editing = true
+            keyboard_string = text
+        }
+    }
+    else if editing
+    {
+        editing = false
+    }
+}
+
+
+if editing
+{
+    text = keyboard_string    
+}
+
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

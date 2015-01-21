@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sPylonCoil" type="RESOURCE"/>
+  <resource name="sTurret" type="RESOURCE"/>
+  <resource name="sPylon" type="RESOURCE"/>
+  <resource name="sBubble" type="RESOURCE"/>
+</resources>

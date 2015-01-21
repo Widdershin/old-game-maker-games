@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="textbox" type="RESOURCE"/>
+  <resource name="sprboolean" type="RESOURCE"/>
+  <resource name="sprprogressbar" type="RESOURCE"/>
+  <resource name="sprfilename" type="RESOURCE"/>
+  <resource name="write" type="RESOURCE"/>
+  <resource name="load" type="RESOURCE"/>
+  <resource name="written" type="RESOURCE"/>
+  <resource name="loaded" type="RESOURCE"/>
+  <resource name="sprtick" type="RESOURCE"/>
+  <resource name="sprcross" type="RESOURCE"/>
+  <resource name="bar" type="RESOURCE"/>
+</resources>

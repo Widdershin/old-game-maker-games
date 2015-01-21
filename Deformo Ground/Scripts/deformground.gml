@@ -1,0 +1,7 @@
+partid = part_system_create()
+surface_set_target(ground)
+draw_set_blend_mode(bm_subtract)
+draw_sprite(argument0,-1,argument1,argument2)
+part_particles_create(partid,x,y,explodepart,500)
+surface_reset_target()
+draw_set_blend_mode(bm_normal)

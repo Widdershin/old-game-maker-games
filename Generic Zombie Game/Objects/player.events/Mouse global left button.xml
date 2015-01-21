@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="MOUSE" id="50">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if fire_ready = 1 &amp;&amp; clip_ready = 1
+{
+bullet_id = instance_create(x,y,bullet)
+bullet_id.speed = 12
+bullet_id.direction = facing_direction
+bullet_id.image_angle = facing_direction-90
+fire_ready = fire_time
+clip_count -= 1
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

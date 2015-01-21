@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sTileTest" type="RESOURCE"/>
+  <resource name="GUI" type="GROUP"/>
+  <resource name="sIsoBase" type="RESOURCE"/>
+  <resource name="sIsoBue" type="RESOURCE"/>
+  <resource name="sIsoShadow" type="RESOURCE"/>
+  <resource name="sIsoGreen" type="RESOURCE"/>
+  <resource name="sIsoRed" type="RESOURCE"/>
+  <resource name="sIsoTile" type="RESOURCE"/>
+  <resource name="sIsoTileXY" type="RESOURCE"/>
+  <resource name="sprite7" type="RESOURCE"/>
+  <resource name="sIsoBlueAA" type="RESOURCE"/>
+  <resource name="sIsoBlueAALite" type="RESOURCE"/>
+  <resource name="swesome" type="RESOURCE"/>
+  <resource name="sHover" type="RESOURCE"/>
+</resources>

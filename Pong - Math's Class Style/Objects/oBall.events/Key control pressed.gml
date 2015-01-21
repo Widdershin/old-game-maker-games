@@ -1,0 +1,1 @@
+hitCount += 1

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sPlayer" type="RESOURCE"/>
+  <resource name="sShadow" type="RESOURCE"/>
+  <resource name="sSand" type="RESOURCE"/>
+  <resource name="sWater" type="RESOURCE"/>
+</resources>

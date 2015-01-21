@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">/*
+    Responsible for movement of characters, collision, and obeying commands.
+*/
+
+if vspeed != 0 || !onground
+{
+    if place_free(x,y+vspeed)
+    {
+        gravity = 0.15
+        rot = 0
+    }
+    else if vspeed &gt;= 0
+    {
+        move_contact_solid(270,vspeed)
+        vspeed = 0
+        gravity = 0
+        onground = true
+    }
+    else if vspeed &lt; 0
+    {
+        move_contact_solid(90,vspeed)
+        vspeed = 0.1
+    }
+}
+if !place_free(x+hspeed,y)
+{
+    hspeed = -hspeed
+    xscale = -xscale
+}
+if abs(hspeed) &lt; 1 &amp;&amp; abs(hspeed) &gt; 0 &amp;&amp; !onground
+{
+    hspeed = xscale
+}
+
+if onground
+{
+    if place_free(x+16*sign(hspeed),y+1)
+    {
+        hspeed = -hspeed
+        xscale = -xscale
+    }
+    if place_free(x,y+1)
+    {
+        onground = false
+    }
+    if rot &gt; 10
+    {
+        rotdir = 1
+    }
+    if rot &lt; -10
+    {
+        rotdir = 0
+    }
+    if rotdir = 1
+    {
+        rot -= abs(hspeed*1.5)
+    }
+    if rotdir = 0
+    {
+        rot += abs(hspeed*1.5)
+    }
+    if prevscale != xscale {counter += 1} else {counter = 0}
+    if counter = 4 {vspeed = -01 onground = false}
+    prevscale = xscale    
+}
+
+if hp &lt;= 0
+{
+    instance_destroy()
+}
+
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">switch(mode)
+{
+    case skel:
+    {
+        if (prevMode != mode)
+        {
+            for (i = 0; i &lt; ds_list_size(partList); i += 1)
+            {
+                show_message("DICKS")
+                instance_create(0, 12 + i*32, oButton)
+            }
+        }
+        break;
+    }
+    
+    case anim:
+    {
+        if (prevMode != mode)
+        {
+            
+        }
+        break;
+    }
+    
+    case map:
+    {
+        if (prevMode != mode)
+        {
+            
+        }
+        break;
+    }    
+}
+
+prevMode = mode;
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

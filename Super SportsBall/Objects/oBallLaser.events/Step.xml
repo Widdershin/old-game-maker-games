@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">ball = instance_place(x, y, oBall)
+if ball
+{
+    ball.speed = 0
+    if ball.lastTeam != -1
+    {
+        with(oSpawn)
+        {
+            if team != other.ball.lastTeam
+            {
+                other.ball.x = x + t/2
+                other.ball.y = y + t/2
+            }
+        }
+    }
+    else
+    {
+        ball.x = ball.xOrigin
+        ball.y = ball.yOrigin
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

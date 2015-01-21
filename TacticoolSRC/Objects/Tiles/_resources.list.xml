@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Snow" type="GROUP"/>
+  <resource name="Lab" type="GROUP"/>
+  <resource name="oEmpty" type="RESOURCE"/>
+</resources>

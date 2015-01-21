@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oGrass" type="RESOURCE"/>
+  <resource name="oControl" type="RESOURCE"/>
+  <resource name="oFlower" type="RESOURCE"/>
+  <resource name="oPlayer" type="RESOURCE"/>
+  <resource name="oCross" type="RESOURCE"/>
+  <resource name="oGui" type="RESOURCE"/>
+  <resource name="Items" type="GROUP"/>
+</resources>

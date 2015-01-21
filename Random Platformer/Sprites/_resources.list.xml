@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sBlock" type="RESOURCE"/>
+  <resource name="sWall" type="RESOURCE"/>
+  <resource name="sPlayer" type="RESOURCE"/>
+  <resource name="sLegs" type="RESOURCE"/>
+</resources>

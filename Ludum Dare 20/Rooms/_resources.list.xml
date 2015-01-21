@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="rMenu" type="RESOURCE"/>
+  <resource name="rLevelSelect" type="RESOURCE"/>
+  <resource name="Levels" type="GROUP"/>
+  <resource name="rTest" type="RESOURCE"/>
+  <resource name="rEnd" type="RESOURCE"/>
+  <resource name="rEdit" type="RESOURCE"/>
+</resources>

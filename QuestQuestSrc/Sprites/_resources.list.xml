@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sPrompt" type="RESOURCE"/>
+  <resource name="sExit" type="RESOURCE"/>
+  <resource name="sMessage" type="RESOURCE"/>
+</resources>

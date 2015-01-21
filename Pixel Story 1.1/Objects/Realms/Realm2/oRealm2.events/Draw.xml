@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">
+
+if winTime &lt; 200
+{
+    draw_set_color(c_yellow)
+    draw_set_alpha(winTime / 180)
+    draw_rectangle(0, 0, room_width, room_height, 0)
+    draw_set_alpha(1)
+}
+
+if instance_number(oBoss)
+{
+    winPercent = ((room_width - t*5) * (1 - (oBoss.hp/oBoss.hpMax))) div t * t
+}
+else
+{
+    winPercent = room_width - t*5
+}
+draw_rectangle(t*5,384,t*5+winPercent,room_height,0)
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

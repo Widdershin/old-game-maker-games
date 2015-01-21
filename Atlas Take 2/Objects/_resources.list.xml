@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oPlayer" type="RESOURCE"/>
+  <resource name="pPart" type="RESOURCE"/>
+  <resource name="oHead" type="RESOURCE"/>
+  <resource name="oBody" type="RESOURCE"/>
+  <resource name="oArm" type="RESOURCE"/>
+  <resource name="oLeg" type="RESOURCE"/>
+</resources>

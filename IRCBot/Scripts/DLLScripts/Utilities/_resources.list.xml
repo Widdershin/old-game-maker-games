@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="MD5" type="GROUP"/>
+  <resource name="Encryption" type="GROUP"/>
+  <resource name="File" type="GROUP"/>
+  <resource name="adler32" type="RESOURCE"/>
+  <resource name="getmacaddress" type="RESOURCE"/>
+  <resource name="iptouint" type="RESOURCE"/>
+  <resource name="uinttoip" type="RESOURCE"/>
+  <resource name="netconnected" type="RESOURCE"/>
+</resources>

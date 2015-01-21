@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">dX = x div t * t
+dY = y div t * t
+
+moveDir = 1
+
+inputDelay = 10
+inputWait = 0
+test = 0
+
+
+shootDelay = 225
+shootWait = shootDelay
+
+hpMax = 40
+hp = hpMax
+
+fineColor = c_lime
+hurtColor = c_red
+
+color = merge_color(c_red, c_lime, 1 - (hp / hpMax))
+
+hitTime = 0
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

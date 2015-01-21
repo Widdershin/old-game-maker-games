@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="2">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if (keyboard_check_pressed(ord("R")))
+{
+    game_restart()
+}
+with (oPlayer)
+{
+    if onground &amp;&amp; !test
+    {
+        x -= sp*0.5
+    }
+}
+if timer &gt; 0
+{
+    timer -= 1
+}
+else if !test
+{
+    instance_create(room_width,random(room_height),choose(oEnemy1,oEnemy2))
+    timer = timers-sin(sp*20)+sp*20             //(sp*20)
+}
+sp += splus
+
+if keyboard_check_pressed(vk_f2)
+{
+    highscore_clear()
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

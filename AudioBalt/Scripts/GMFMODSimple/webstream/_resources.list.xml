@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="FMODSoundAddAsyncStream" type="RESOURCE"/>
+  <resource name="FMODSoundAsyncReady" type="RESOURCE"/>
+  <resource name="FMODInstanceAsyncOK" type="RESOURCE"/>
+  <resource name="FMODServerError" type="RESOURCE"/>
+  <resource name="FMODGetTagData" type="RESOURCE"/>
+  <resource name="FMODGetTagName" type="RESOURCE"/>
+  <resource name="FMODInstanceGetNextTag" type="RESOURCE"/>
+</resources>

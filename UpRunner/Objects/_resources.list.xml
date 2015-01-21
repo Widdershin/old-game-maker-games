@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oPlayer" type="RESOURCE"/>
+  <resource name="oPlatform" type="RESOURCE"/>
+  <resource name="oWall" type="RESOURCE"/>
+  <resource name="oDarkness" type="RESOURCE"/>
+  <resource name="oControl" type="RESOURCE"/>
+  <resource name="oRocketLauncher" type="RESOURCE"/>
+  <resource name="oRocket" type="RESOURCE"/>
+  <resource name="oLaser" type="RESOURCE"/>
+  <resource name="oScoreBoard" type="RESOURCE"/>
+  <resource name="oNameEntry" type="RESOURCE"/>
+  <resource name="oExplosion" type="RESOURCE"/>
+  <resource name="oLaserLine" type="RESOURCE"/>
+  <resource name="pCollidable" type="RESOURCE"/>
+  <resource name="oGears" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oCommand" type="RESOURCE"/>
+  <resource name="oStop" type="RESOURCE"/>
+  <resource name="oDisarm" type="RESOURCE"/>
+  <resource name="oHeal" type="RESOURCE"/>
+  <resource name="oStop1" type="RESOURCE"/>
+  <resource name="oJump" type="RESOURCE"/>
+  <resource name="oRight" type="RESOURCE"/>
+  <resource name="oLeft" type="RESOURCE"/>
+  <resource name="oLevitate" type="RESOURCE"/>
+</resources>

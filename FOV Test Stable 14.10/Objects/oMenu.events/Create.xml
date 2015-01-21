@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">globalvar lighting, debug;
+lighting = false
+debug = false
+menuitem[0] = "New Game"
+menuitem[1] = "Lighting"
+menuitem[2] = "Debug"
+menucount = 3
+a = false
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

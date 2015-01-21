@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="death" type="RESOURCE"/>
+  <resource name="fire" type="RESOURCE"/>
+  <resource name="path_length" type="RESOURCE"/>
+  <resource name="wave" type="RESOURCE"/>
+  <resource name="merge" type="RESOURCE"/>
+  <resource name="wavecheck" type="RESOURCE"/>
+</resources>

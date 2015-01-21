@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="KEYPRESS" id="13">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">runString = keyboard_string
+spaceCount = string_count(" ",runString)+1
+repeat(spaceCount)
+spacePos = string_pos(" ",runString)
+actionWord = string_letters(string_copy(runString,0,spacePos))
+paramWord = string_letters(string_copy(runString,spacePos+1,string_length(runString)))
+if spacePos = 0
+{
+    actionWord = runString
+}
+actionWordReal = script_get_index("act"+actionWord)
+if script_exists(actionWordReal)
+{script_execute(actionWordReal,paramWord)}
+else {error()}
+lastcmd = keyboard_string
+keyboard_string = ""
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

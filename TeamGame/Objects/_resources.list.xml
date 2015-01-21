@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oControl" type="RESOURCE"/>
+  <resource name="pUnit" type="RESOURCE"/>
+  <resource name="Units" type="GROUP"/>
+  <resource name="Arena Pieces" type="GROUP"/>
+  <resource name="oHead" type="RESOURCE"/>
+</resources>

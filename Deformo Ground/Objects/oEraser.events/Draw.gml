@@ -1,0 +1,5 @@
+surface_set_target(ground)
+draw_set_blend_mode(bm_subtract)
+draw_sprite(sprite_index,-1,x,y)
+surface_reset_target()
+draw_set_blend_mode(bm_normal)

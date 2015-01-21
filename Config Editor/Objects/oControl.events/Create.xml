@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">ini_open("config.txt")
+ini_write_real("controls","player1.keyjump",vk_up)
+ini_write_real("controls","player1.keyleft",vk_left)
+ini_write_real("controls","player1.keyright",vk_right)
+ini_write_real("controls","player1.gamepad",false)
+ini_write_real("controls","player1.colour",c_blue)
+ini_write_real("controls","player2.keyjump",ord("W"))
+ini_write_real("controls","player2.keyleft",ord("A"))
+ini_write_real("controls","player2.keyright",ord("D"))
+ini_write_real("controls","player2.gamepad",false)
+ini_write_real("controls","player2.color",c_red)
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

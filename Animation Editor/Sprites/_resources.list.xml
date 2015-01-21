@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sKey" type="RESOURCE"/>
+  <resource name="sAdd" type="RESOURCE"/>
+  <resource name="sTime" type="RESOURCE"/>
+  <resource name="sTest" type="RESOURCE"/>
+</resources>

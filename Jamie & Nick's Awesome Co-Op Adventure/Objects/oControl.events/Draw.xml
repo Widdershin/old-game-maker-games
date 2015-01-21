@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">draw_set_color(c_white)
+draw_set_font(fBasic)
+draw_set_halign(fa_left)
+draw_text(7,5,sp*100)
+draw_set_halign(fa_middle)
+draw_text(320,5,sin(sp*20)/2+sp*20)
+draw_set_halign(fa_right)
+draw_text(633,5,current_time)
+if rain
+{
+    draw_sprite(sRain,-1,x,y)
+}
+prevtime = current_time
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

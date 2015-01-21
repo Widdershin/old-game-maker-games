@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">//oScore Draw
+draw_set_color(c_white) //sets draw color to white
+draw_set_font(fRetro)
+
+draw_set_halign(fa_left)
+draw_text(64,32,p1score)
+
+draw_set_halign(fa_right)
+draw_text(room_width-64,32,p2score)
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

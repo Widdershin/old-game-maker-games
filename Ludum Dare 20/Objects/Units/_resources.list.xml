@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oWarrior" type="RESOURCE"/>
+  <resource name="oMage" type="RESOURCE"/>
+  <resource name="oRogue" type="RESOURCE"/>
+  <resource name="Enemies" type="GROUP"/>
+</resources>

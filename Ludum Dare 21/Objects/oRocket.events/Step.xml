@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">part_particles_create(partid,x+lengthdir_x(random(6)-3,direction),y,rocketpart,2)
+motion_add(point_direction(x,y,target.x,target.y),0.4)
+if speed &lt; 3
+{
+    motion_set(direction,3)
+}
+if speed &gt; 4
+{
+    motion_set(direction,4)
+}
+speed *= 0.9
+image_angle = direction
+
+if instance_place(x,y,oPlatform)
+{
+    part_system_destroy(partid)
+    instance_create(x,y,oExplosion)
+    sound_play(soExplode)
+    instance_destroy()
+}
+if instance_place(x,y,oPlayer)
+{
+    gameover()
+    instance_destroy()
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

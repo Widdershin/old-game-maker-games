@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">file = "lab.cfg"
+file = ini_open(file)
+spr = ini_read_string("CFG","sprite",-1)
+sprite0 = sprite_add(spr,1,0,0,0,0)
+sprite = sprite_add(spr,1,0,0,sprite_get_width(sprite0)/2,sprite_get_height(sprite0)/2)
+sprite_delete(sprite0)
+sprite_index = sprite
+roomw = ceil(sprite_width/32)
+roomh = ceil(sprite_height/32)
+draw = 0
+
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

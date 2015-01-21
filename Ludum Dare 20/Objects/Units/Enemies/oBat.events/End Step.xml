@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="2">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">/*
+    Responsible for movement of characters, collision, and obeying commands.
+*/
+
+if !target
+{
+    range = maxrange
+    with(oUnit)
+    {
+        if distance_to_object(other) &lt; other.range &amp;&amp; !collision_line(x,y,other.x,other.y,oGround,1,1)
+        {
+            other.range = distance_to_object(other)
+            other.target = id
+        }      
+    }
+}
+else
+{
+    hspeed = 0
+    if !instance_exists(target)
+    {
+        hspeed = xscale
+        target = -1
+    }
+    if idle
+    {
+        y += 8
+    }
+    idle = false
+    if instance_position(x,y,oUnit) &amp;&amp; !cooldown
+    {
+        with(instance_position(x,y,oUnit))
+        {
+            hp -= other.damage
+        }
+        cooldown = 90
+    }
+    mp_potential_step_object(target.x,target.y,1,oGround)
+    
+}
+if cooldown &gt; 0
+{
+    cooldown -= 1
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

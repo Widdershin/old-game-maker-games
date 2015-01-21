@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="variable" type="RESOURCE"/>
+  <resource name="writebutton" type="RESOURCE"/>
+  <resource name="loadbutton" type="RESOURCE"/>
+  <resource name="progressbar" type="RESOURCE"/>
+  <resource name="boolean" type="RESOURCE"/>
+  <resource name="guimake" type="RESOURCE"/>
+  <resource name="filename" type="RESOURCE"/>
+</resources>

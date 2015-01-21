@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if curid = id
+{
+    image_index = 1
+}
+else
+{
+    image_index = 0 
+}
+if mouse_check_button_pressed(mb_left) &amp;&amp; instance_position(mouse_x,mouse_y,id)
+{
+    cur = num
+    curid = id
+    with(oBone)
+    {
+        x = xx[cur]
+        y = yy[cur]
+        image_angle = ang[cur]
+    }
+}
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

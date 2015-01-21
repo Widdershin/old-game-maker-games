@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="control" type="RESOURCE"/>
+  <resource name="pixel" type="RESOURCE"/>
+  <resource name="gui" type="RESOURCE"/>
+  <resource name="object3" type="RESOURCE"/>
+</resources>

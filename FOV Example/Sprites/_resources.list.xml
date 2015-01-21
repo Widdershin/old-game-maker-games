@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sTile" type="RESOURCE"/>
+  <resource name="sWall" type="RESOURCE"/>
+  <resource name="sPlayer" type="RESOURCE"/>
+  <resource name="sDark" type="RESOURCE"/>
+  <resource name="sprite5" type="RESOURCE"/>
+  <resource name="sBlack" type="RESOURCE"/>
+</resources>

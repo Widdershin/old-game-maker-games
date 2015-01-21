@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">draw_sprite(sprite_index,-1,x,y)
+draw_set_font(fLarge)
+draw_set_halign(fa_middle)
+draw_set_valign(fa_center)
+draw_text(x+24,y+24,display)
+draw_set_halign(fa_right)
+draw_set_valign(fa_top)
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">skip = false
+if gamepadID
+{
+    if joystick_check_button(gamepadID, 1)
+    {
+        skip = true
+    }
+}
+
+if keyboard_check_pressed(vk_space)
+{
+    skip = true
+}
+
+if skip
+{
+    if time &lt; s * 17
+    {
+        time = s * 16 
+    }
+    else
+    {
+        game_end()
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

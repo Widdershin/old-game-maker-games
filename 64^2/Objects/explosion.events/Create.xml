@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">fade = 36
+instance_create(x,y,char)
+instance_create(x+1,y,char)
+instance_create(x+2,y,char)
+instance_create(x,y+1,char)
+instance_create(x+1,y+1,char)
+instance_create(x+2,y+1,char)
+instance_create(x,y+2,char)
+instance_create(x+1,y+2,char)
+instance_create(x-1,y+2,char)
+instance_create(x-1,y+1,char)
+instance_create(x-2,y+1,char)
+instance_create(x-1,y,char)
+instance_create(x-2,y,char)
+instance_create(x-2,y-1,char)
+instance_create(x-1,y-1,char)
+instance_create(x-1,y-2,char)
+instance_create(x,y-1,char)
+instance_create(x,y-2,char)
+instance_create(x+1,y-1,char)
+instance_create(x+1,y-2,char)
+instance_create(x+2,y-1,char)
+
+
+sound = choose(explosion1,explosion2,explosion3)
+sound_pan(sound,((x-player.x)/65))
+sound_play(sound)
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">///////////////////////////////////Movement Code///////////////////////////////////////////////////////
+if !place_meeting(x,y+vspeed+1,oGround)
+{
+    gravity = 0.2
+    onground = false
+}
+else
+{
+    if ongroundprev = false
+    {
+        vspeed = 0
+        gravity = 0
+        onground = true
+    }
+}
+if keyboard_check_pressed(wmove) &amp;&amp; onground &amp;&amp; !joystick
+{
+    vspeed = -5
+    sound_play(soJump)
+}
+if keyboard_check(dmove)&amp;&amp; !joystick
+{
+    if !place_meeting(x+3,y,oGround) {hspeed = 3}
+    else
+    {hspeed = 0}
+}
+if keyboard_check(amove)&amp;&amp; !joystick
+{
+    if !place_meeting(x-3,y,oGround) {hspeed = -3}
+    else
+    {hspeed = 0}
+}
+if keyboard_check_released(dmove) || keyboard_check_released(amove)
+{
+    hspeed = 0
+}
+if joystick
+{
+    if sign(round(joystick_xpos(joystickid))) = 1
+    {
+        if !place_meeting(x+3,y,oGround) {hspeed = 3}
+        else
+        {hspeed = 0}
+    }
+    if sign(round(joystick_xpos(joystickid))) = -1
+    {
+        if !place_meeting(x-3,y,oGround) {hspeed = -3}
+        else {hspeed = 0}
+    }
+    if sign(round(joystick_xpos(joystickid))) = 0
+    {
+        hspeed = 0
+    }
+    hspeed = sign(round(joystick_xpos(joystickid)))*3
+    if joystick_check_button(joystickid,5) || joystick_check_button(joystickid,6) || joystick_check_button(joystickid,1) &amp;&amp; onground
+    {
+        vspeed = -5
+        sound_play(soJump)
+    }
+}
+ongroundprev = onground
+if x &gt; room_width || x &lt; 0 || y &gt; room_height || y &lt; 0
+{
+    gameover(id)
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

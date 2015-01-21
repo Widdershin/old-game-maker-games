@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="fire" type="RESOURCE"/>
+  <resource name="enemyspawn" type="RESOURCE"/>
+  <resource name="dropstuff" type="RESOURCE"/>
+</resources>

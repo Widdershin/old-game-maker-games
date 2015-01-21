@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="fovcreate" type="RESOURCE"/>
+  <resource name="fovstep" type="RESOURCE"/>
+  <resource name="fovdraw" type="RESOURCE"/>
+  <resource name="step" type="RESOURCE"/>
+  <resource name="sendmsg" type="RESOURCE"/>
+  <resource name="endaction" type="RESOURCE"/>
+  <resource name="gendungeon" type="RESOURCE"/>
+  <resource name="gengrid" type="RESOURCE"/>
+  <resource name="genlink" type="RESOURCE"/>
+  <resource name="attack" type="RESOURCE"/>
+</resources>

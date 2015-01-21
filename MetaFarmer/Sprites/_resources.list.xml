@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sGrass" type="RESOURCE"/>
+  <resource name="sDirt" type="RESOURCE"/>
+  <resource name="sFlower" type="RESOURCE"/>
+  <resource name="sPlayer" type="RESOURCE"/>
+  <resource name="sCross" type="RESOURCE"/>
+  <resource name="sGui" type="RESOURCE"/>
+  <resource name="Items" type="GROUP"/>
+  <resource name="sPalette" type="RESOURCE"/>
+</resources>

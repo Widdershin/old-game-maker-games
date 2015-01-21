@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oControl" type="RESOURCE"/>
+  <resource name="oCube" type="RESOURCE"/>
+  <resource name="oGround" type="RESOURCE"/>
+  <resource name="oDirt" type="RESOURCE"/>
+  <resource name="oWater" type="RESOURCE"/>
+</resources>

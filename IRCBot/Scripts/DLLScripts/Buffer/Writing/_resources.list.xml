@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="writebyte" type="RESOURCE"/>
+  <resource name="writeshort" type="RESOURCE"/>
+  <resource name="writeushort" type="RESOURCE"/>
+  <resource name="writeint" type="RESOURCE"/>
+  <resource name="writeuint" type="RESOURCE"/>
+  <resource name="writefloat" type="RESOURCE"/>
+  <resource name="writedouble" type="RESOURCE"/>
+  <resource name="writechars" type="RESOURCE"/>
+  <resource name="writestring" type="RESOURCE"/>
+  <resource name="copybuffer" type="RESOURCE"/>
+  <resource name="copybuffer2" type="RESOURCE"/>
+</resources>

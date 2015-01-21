@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oDoor" type="RESOURCE"/>
+  <resource name="oEntrance" type="RESOURCE"/>
+  <resource name="oNext" type="RESOURCE"/>
+  <resource name="oTrap" type="RESOURCE"/>
+  <resource name="oPressButton" type="RESOURCE"/>
+  <resource name="oGate" type="RESOURCE"/>
+  <resource name="oSpikes" type="RESOURCE"/>
+  <resource name="oSpikesInver" type="RESOURCE"/>
+</resources>

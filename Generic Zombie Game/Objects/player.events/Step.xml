@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">facing_direction  = point_direction(x,y,mouse_x,mouse_y)
+image_angle = facing_direction-90
+if fire_ready &lt; 1
+{
+fire_ready += 1
+}
+if clip_count &lt;= 0 &amp;&amp; clip_ready = 1
+{
+clip_ready = clip_time
+}
+if clip_ready &lt; 1
+{
+clip_ready += 1
+}
+if clip_ready = 0
+{
+clip_count = 17
+}
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

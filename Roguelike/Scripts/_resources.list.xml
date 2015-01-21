@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="step" type="RESOURCE"/>
+  <resource name="sendmsg" type="RESOURCE"/>
+  <resource name="endaction" type="RESOURCE"/>
+  <resource name="attack" type="RESOURCE"/>
+  <resource name="popup" type="RESOURCE"/>
+  <resource name="Inventory" type="GROUP"/>
+  <resource name="FoV" type="GROUP"/>
+  <resource name="Generation" type="GROUP"/>
+  <resource name="AI" type="GROUP"/>
+  <resource name="IsoRender" type="GROUP"/>
+  <resource name="genminimap" type="RESOURCE"/>
+</resources>

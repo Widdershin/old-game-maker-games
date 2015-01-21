@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sPlayer" type="RESOURCE"/>
+  <resource name="sShadow" type="RESOURCE"/>
+  <resource name="sPlatform" type="RESOURCE"/>
+  <resource name="sWall" type="RESOURCE"/>
+  <resource name="sGlow" type="RESOURCE"/>
+  <resource name="sRocketLauncher" type="RESOURCE"/>
+  <resource name="sRocketLaunch" type="RESOURCE"/>
+  <resource name="sRocket" type="RESOURCE"/>
+  <resource name="sRocketTrail" type="RESOURCE"/>
+  <resource name="sPlatformTop" type="RESOURCE"/>
+  <resource name="sLaser" type="RESOURCE"/>
+  <resource name="sScoreBoard" type="RESOURCE"/>
+  <resource name="sLaserLine" type="RESOURCE"/>
+  <resource name="sNameEntry" type="RESOURCE"/>
+  <resource name="oJewel" type="RESOURCE"/>
+  <resource name="sExplosion" type="RESOURCE"/>
+  <resource name="sGrinder" type="RESOURCE"/>
+</resources>

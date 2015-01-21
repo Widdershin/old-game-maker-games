@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oBlock" type="RESOURCE"/>
+  <resource name="oLight" type="RESOURCE"/>
+  <resource name="oControl1" type="RESOURCE"/>
+  <resource name="oPoint" type="RESOURCE"/>
+</resources>

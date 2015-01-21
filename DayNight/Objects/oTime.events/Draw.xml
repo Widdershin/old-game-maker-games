@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if time &lt; dawntime //midnight to dawn
+{
+    color = nightcol
+    draw_set_alpha(nightalpha)
+}
+else if time &gt; dawntime &amp;&amp; time &lt; daytime //dawn to daylight
+{
+    color = merge_color(daycol,nightcol,(daytime-dawntime/daytime-time)/100)
+    draw_set_alpha(ratio(nightalpha,dayalpha,time))
+}
+else if time &gt; daytime &amp;&amp; time &lt; dusktime //daylight to dusk
+{
+    color = daycol
+    draw_set_alpha(dayalpha)
+}
+else if time &gt; dusktime &amp;&amp; time &lt; nighttime //dusk to night
+{
+    color = merge_color(dawncol,nightcol,dusktime-nighttime/time-dusktime)
+}
+else if time &gt; nighttime //night to midnight
+{
+    color = nighttime   
+}
+
+draw_rectangle_color(0,0,room_width,room_height,color,color,color,color,0)
+if time &gt; 1440
+{
+    time = 0
+}
+time += 1
+draw_set_alpha(1)
+draw_set_color(nightcol)
+draw_text(5,5,string(time div 60)+":"+string(time mod 60))
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

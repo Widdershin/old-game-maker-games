@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oMech" type="RESOURCE"/>
+  <resource name="oWeapon" type="RESOURCE"/>
+  <resource name="oBuild" type="RESOURCE"/>
+  <resource name="oFixedRocket" type="RESOURCE"/>
+</resources>

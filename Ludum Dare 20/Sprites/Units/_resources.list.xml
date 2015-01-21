@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sMage" type="RESOURCE"/>
+  <resource name="sWarrior" type="RESOURCE"/>
+  <resource name="sRogue" type="RESOURCE"/>
+  <resource name="sPerson" type="RESOURCE"/>
+  <resource name="sKing" type="RESOURCE"/>
+</resources>

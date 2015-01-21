@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oHead" type="RESOURCE"/>
+  <resource name="oTorso" type="RESOURCE"/>
+  <resource name="oArm" type="RESOURCE"/>
+  <resource name="oThigh" type="RESOURCE"/>
+  <resource name="oLeg" type="RESOURCE"/>
+  <resource name="oGun" type="RESOURCE"/>
+  <resource name="oBullet" type="RESOURCE"/>
+  <resource name="oPart" type="RESOURCE"/>
+  <resource name="oPlayer" type="RESOURCE"/>
+  <resource name="oDebug" type="RESOURCE"/>
+  <resource name="oBox" type="RESOURCE"/>
+</resources>

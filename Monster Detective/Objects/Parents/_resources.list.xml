@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="pObject" type="RESOURCE"/>
+  <resource name="pSolid" type="RESOURCE"/>
+  <resource name="pCharacter" type="RESOURCE"/>
+  <resource name="pNPC" type="RESOURCE"/>
+</resources>

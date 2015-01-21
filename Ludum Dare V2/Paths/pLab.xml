@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<path>
+  <points>
+    <point speed="100" x="624" y="72"/>
+    <point speed="100" x="456" y="72"/>
+    <point speed="100" x="456" y="408"/>
+    <point speed="100" x="360" y="408"/>
+    <point speed="100" x="360" y="72"/>
+    <point speed="100" x="264" y="72"/>
+    <point speed="100" x="264" y="408"/>
+    <point speed="100" x="168" y="408"/>
+    <point speed="100" x="168" y="72"/>
+    <point speed="100" x="72" y="72"/>
+    <point speed="100" x="72" y="408"/>
+    <point speed="100" x="-24" y="408"/>
+  </points>
+  <backgroundRoom>rLab</backgroundRoom>
+  <closed>false</closed>
+  <precision>4</precision>
+  <smooth>false</smooth>
+  <snap x="24" y="24"/>
+</path>

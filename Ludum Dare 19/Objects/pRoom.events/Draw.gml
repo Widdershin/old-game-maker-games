@@ -1,0 +1,37 @@
+clear = 0
+draw_sprite_ext(sprite_index,-1,x,y,1,1,image_angle,c_white,255)
+xx = x-sprite_width/2-1
+yy = y-sprite_height/2-1
+if held
+{
+xxx = x
+yyy = y
+roomww = roomw
+if abs(image_angle) = 90 || abs(image_angle) = 270 
+{
+    roomww = roomh 
+    xx = x-sprite_height/2-1
+    yy = y-sprite_width/2-1
+}
+diff = roomw-roomh
+diff2 = 32-(diff*32)
+ldx = lengthdir_x(ceil(roomw/2)*32+xoff,image_angle)
+ldy = lengthdir_y(ceil(roomh/2)*32+yoff,image_angle)
+draw_set_color(c_yellow)
+draw_rectangle(xxx+ldx-1,yyy+ldy-1,xxx+ldx+1,yyy+ldy+1,0)
+draw_rectangle(xxx-2,yyy-2,xxx+2,yyy+2,0)
+x = -4000
+y = -4000
+temp = 0
+temp2 = 0
+repeat(roomw*roomh)
+{
+    if instance_position(xx+(temp*32)+16,yy+(temp2*32)+16,pBlock) {draw_set_color(c_red)} else {draw_set_color(c_blue) clear +=1}
+    draw_rectangle(xx+(temp*32),yy+(temp2*32),xx+(temp*32)+32,yy+(temp2*32)+32,1)
+    temp += 1
+    if temp > roomww-1 {temp = 0 temp2 += 1}
+}
+x = xxx
+y = yyy
+}
+

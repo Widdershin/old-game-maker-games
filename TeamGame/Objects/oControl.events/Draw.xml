@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if (phase = plan)
+{
+    if (mh != -4)
+    {
+        draw_sprite(sSelected,-1, mh.x, mh.y)
+        if mh.path
+        {
+            with(mh)
+            draw_path(path,x,y,0)
+        }
+    }
+}
+else if (phase = fight)
+{
+    
+}
+else if (phase = over)
+{
+
+}
+
+if debug
+{
+    if keyboard_check(ord("A"))
+    {
+        mp_grid_draw(pgrid)
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

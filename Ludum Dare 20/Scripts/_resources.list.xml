@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="jumpstart" type="RESOURCE"/>
+  <resource name="stopstart" type="RESOURCE"/>
+  <resource name="save" type="RESOURCE"/>
+  <resource name="load" type="RESOURCE"/>
+  <resource name="Commands" type="GROUP"/>
+</resources>

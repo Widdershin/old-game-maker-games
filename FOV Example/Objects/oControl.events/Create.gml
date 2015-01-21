@@ -1,0 +1,1 @@
+globalvar mouse_id;

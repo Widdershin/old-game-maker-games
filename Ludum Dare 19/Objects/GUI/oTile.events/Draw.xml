@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">var tempid;
+tempid = instance_create(-4000,-4000,buildingid)
+draw_set_font(fDetail)
+draw_set_color(c3)
+draw_sprite(sprite_index,-1,x,y)
+draw_set_halign(fa_middle)
+draw_text(x+23,y+2,buildingid.name)
+draw_set_halign(fa_left)
+draw_text(x+2,y+12,"$"+string(buildingid.price))
+draw_sprite(sPeople,-1,x+3,y+22)
+draw_text(x+8,y+22,buildingid.capacity)
+if buildingid.outputtype = 'sci'
+{
+    draw_sprite(sSciIcon,-1,x+3,y+32)
+}
+if buildingid.outputtype = 'hap'
+{
+    draw_sprite(sHapIcon,-1,x+3,y+32)
+}
+draw_text(x+8,y+32,"+"+string(buildingid.output))
+with(tempid){instance_destroy()}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

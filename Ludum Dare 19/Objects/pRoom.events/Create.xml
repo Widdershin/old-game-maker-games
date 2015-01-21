@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">roomw = ceil(sprite_width/32)
+roomh = ceil(sprite_height/32)
+held = false
+spawnx = x + lengthdir_x(ceil(roomw/2)*32+xoff,image_angle) 
+spawny = y + lengthdir_y(ceil(roomh/2)*32+yoff,image_angle)
+curcapacity = 0
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

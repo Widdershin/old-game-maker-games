@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">globalvar item, itemnum, sprites, torso, legs, boots, helm;
+
+torso = 0
+legs  = 1
+boots = 2
+helm  = 3
+
+sprites[0] = sTorso
+sprites[1] = sLegs
+sprites[2] = sBoots
+sprites[3] = sHelm
+
+//newitem(type,number,name,armour/damage,value)
+set = 0
+newitem(torso, set, "Villager Shirt", 3, 5)
+newitem(legs, set, "Villager Pants", 2, 4)
+newitem(boots, set, "Villager Boots", 1, 2)
+
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

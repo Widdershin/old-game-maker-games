@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sFloor" type="RESOURCE"/>
+  <resource name="sWall" type="RESOURCE"/>
+  <resource name="sPlayer" type="RESOURCE"/>
+  <resource name="sDummy" type="RESOURCE"/>
+  <resource name="sDoor" type="RESOURCE"/>
+  <resource name="sWindow" type="RESOURCE"/>
+  <resource name="sMessages" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if keyboard_check_pressed(ord("1"))
+{
+    newdungeon = true
+    screen_redraw()
+    screen_refresh()
+    room_goto(rDungeon)
+}
+if keyboard_check_pressed(ord("2"))
+{
+    if lighting = false{lighting = true}
+    else {lighting = false}    
+}
+if lighting = false
+{
+    menuitem[1] = "Lighting Disabled"
+}
+else
+{
+    menuitem[1] = "Lighting Enabled"
+}
+if keyboard_check_pressed(ord("3"))
+{
+    if debug = false{debug = true}
+    else {debug = false}    
+}
+if debug = false
+{
+    menuitem[2] = "Debug Disabled"
+}
+else
+{
+    menuitem[2] = "Debug Enabled"
+}
+if keyboard_check_pressed(ord("4"))
+{
+    room_goto(rCombat)
+}
+if keyboard_check_pressed(ord("5"))
+{
+    newchar = true
+    keyboard_string = ""
+}
+if newchar
+{
+    if newchar = 3
+    {
+        if keyboard_check_pressed(vk_down)
+        {
+            cursor += 1
+        }
+        if keyboard_check_pressed(vk_up)
+        {
+            cursor -= 1
+        }
+        if cursor &lt; 0 {cursor = statcount-1}
+        if cursor &gt; statcount-1{cursor = 0}
+        
+        if keyboard_check_pressed(vk_right) &amp;&amp; allocate &gt; 0
+        {
+            allocate -= 1
+            execute_string(stat[cursor]+" += 1")
+            stat += 1
+        }
+        if keyboard_check_pressed(vk_left) &amp;&amp; variable_local_get(stat[cursor]) &gt; 10
+        {
+            allocate += 1
+            execute_string(stat[cursor]+" -= 1")
+        }
+        if keyboard_check_pressed(vk_enter)
+        {
+        attribid = instance_create(x,y,oAttrib)
+        attribid.STR = STR
+        attribid.INT = INT
+        attribid.DEX = DEX
+        attribid.CHA = CHA
+        attribid.name = name
+        attribid.race = race
+        room_goto(rCombat)
+        }
+    }   
+    if newchar = 2
+    {
+        if keyboard_check_pressed(vk_enter) &amp;&amp; newchar = 2
+        {
+            race = race[cursor,0]
+            STR += race[cursor,1]
+            STRY = STR
+            INT += race[cursor,2]
+            INTY = INT
+            DEX += race[cursor,3]
+            DEXY = DEX
+            CHA += race[cursor,4]
+            CHAY = CHA
+            allocate = ceil(INT/2)
+            newchar = 3
+        }
+        if keyboard_check_pressed(vk_down)
+        {
+            cursor += 1
+        }
+        if keyboard_check_pressed(vk_up)
+        {
+            cursor -= 1
+        }
+        if cursor &lt; 0 {cursor = racecount-1}
+        if cursor &gt; racecount-1{cursor = 0}
+        
+        if keyboard_check_pressed(vk_right)
+        {
+        }
+        if keyboard_check_pressed(vk_left)
+        {
+        }
+    }
+    if keyboard_check_pressed(vk_enter) &amp;&amp; newchar = 1
+    {
+        name = keyboard_string
+        newchar = 2
+    }
+}
+if keyboard_check_pressed(ord("R")) &amp;&amp; !newchar{game_restart()}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="noise" type="RESOURCE"/>
+  <resource name="noisea" type="RESOURCE"/>
+  <resource name="smooth" type="RESOURCE"/>
+  <resource name="merge" type="RESOURCE"/>
+  <resource name="mnoise" type="RESOURCE"/>
+</resources>

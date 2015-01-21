@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oEnemy" type="RESOURCE"/>
+  <resource name="oObject" type="RESOURCE"/>
+  <resource name="oGround" type="RESOURCE"/>
+  <resource name="oGun" type="RESOURCE"/>
+</resources>

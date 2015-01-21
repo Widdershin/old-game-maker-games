@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sShip" type="RESOURCE"/>
+  <resource name="sBullet" type="RESOURCE"/>
+  <resource name="sAsteroid" type="RESOURCE"/>
+</resources>

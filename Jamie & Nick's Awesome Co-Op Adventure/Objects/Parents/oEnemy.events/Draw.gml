@@ -1,0 +1,6 @@
+draw_sprite_ext(sprite_index,-1,x,y,1,1,image_angle,c_white,1)
+draw_set_alpha(1)
+draw_set_color(c_red)
+draw_rectangle(x-16,y+sprite_height/2+4,x+16,y+sprite_height/2+6,0)
+draw_set_color(c_lime)
+draw_rectangle(x-16,y+sprite_height/2+4,x-16+(32*(hp/hpt)),y+sprite_height/2+6,0)

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="2">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">/*
+    Controls the character's abilities
+*/
+if !target
+{
+    target = instance_place(x+32*hspeed,y,oUnit)
+}
+if target
+{
+    hspeed = 0
+    rot = 0
+    if !instance_exists(target)
+    {    
+        hspeed = xscale
+        target = -1
+    }
+    if !cooldown &amp;&amp; target
+    {
+        if distance_to_object(target) &lt;= 32
+        {
+            attackid = instance_create(target.x,target.y,oAttack)
+            cooldown = 120
+            attackid.xscale = xscale
+            attackid.target = target
+            attackid.damage = damage
+            vspeed = -1
+        }
+        else
+        {
+            target = -1
+            hspeed = xscale
+        }
+    }
+
+}
+if cooldown &gt; 0
+{
+    cooldown -= 1
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

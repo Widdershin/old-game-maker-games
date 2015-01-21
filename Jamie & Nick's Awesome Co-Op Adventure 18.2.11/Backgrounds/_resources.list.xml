@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="bStars" type="RESOURCE"/>
+  <resource name="bFarback" type="RESOURCE"/>
+  <resource name="bMidback" type="RESOURCE"/>
+  <resource name="bNearback" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oAttack" type="RESOURCE"/>
+  <resource name="oArrow" type="RESOURCE"/>
+  <resource name="oLevitateSquare" type="RESOURCE"/>
+  <resource name="oBlood" type="RESOURCE"/>
+</resources>

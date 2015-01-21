@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">direction = radtodeg(arctan2(vspeed,hspeed))
+
+
+/***************************************************
+  Right. This is the A.I. code.
+***************************************************/
+/*
+xdist = x-player.x
+ydist = y-player.y
+los = collision_line(x,y,player.x,player.y,all,0,1)
+if xdist &lt; 0
+{
+    xdistpos = xdist * -1
+}
+else
+{
+    xdistpos = xdist
+}
+
+if ydist &lt; 0
+{
+    ydistpos = ydist * -1
+}
+else
+{
+    ydistpos = ydist
+}
+
+if xdistpos &lt; ydistpos
+{
+   if xdist &gt; 0
+   {
+        if place_free(x-1,y)
+       {
+           x -= 0.3
+           direction = 180
+       }
+   }
+   if xdist &lt; 0
+   {
+        if place_free(x+1,y)
+       {
+           x += 0.3
+           direction = 0
+       }
+   }
+   if xdist = 0
+    {
+       bulletid = instance_create(x,y,bullet)
+       bullet.direction = direction
+       bullet.speed = 1
+   }
+}
+if ydistpos &lt; xdistpos
+{
+   if ydist &gt; 0
+   {
+        if place_free(x,y-1)
+        {
+            y -= 0.3
+            direction = 90
+        }
+    }
+    if ydist &lt; 0
+    {
+        if place_free(x,y+1)
+        {
+            y += 0.3
+            direction = 270
+        }
+    }
+    if ydist = 0
+    {
+        bulletid = instance_create(x,y,bullet)
+        bullet.direction = direction
+        bullet.speed = 1
+    }
+} 
+</argument>
+      </arguments>
+    </action>
+    <action id="121" library="1">
+      <!--action name: Step_Potential-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_potential_step</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">player.x</argument>
+        <argument kind="EXPRESSION">player.y</argument>
+        <argument kind="EXPRESSION">0.1</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

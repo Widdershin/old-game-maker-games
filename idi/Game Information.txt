@@ -1,0 +1,220 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil Arial;}{\f1\fnil\fcharset0 Courier New;}{\f2\fnil Courier New;}{\f3\fnil\fcharset0 Arial;}{\f4\fnil\fprq1\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue128;\red163\green21\blue21;}
+\viewkind4\uc1\pard\cf1\f0\fs24 midi_dll_init()
+\par midi_dll_free()
+\par 
+\par \f1\fs20 m\f2 idi_init\cf0 
+\par \cf1 midi_exit\cf0 
+\par \cf1 midi_note_play\cf0 
+\par \cf1 midi_note_play_timed\cf2 
+\par \cf1 midi_note_stop\cf0 
+\par \cf1 midi_command\cf0 
+\par \cf1 midi_add\cf0 
+\par \cf1 midi_play\cf0 
+\par \cf1\f1 m\f2 idi_stop_all\cf0 
+\par \cf1 midi_note_edit\cf0 
+\par \cf1\f1 m\f2 idi_pos_seek\cf0 
+\par \cf1 midi_length_beats\cf0 
+\par \cf1 midi_length_seconds\cf0 
+\par \cf1 midi_pos_beats\cf0 
+\par \cf1 midi_pos_seconds\cf0 
+\par \cf1 midi_set_volume_local\cf0 
+\par \cf1 midi_set_volume_global\cf0 
+\par \cf1 midi_write_begin\cf0 
+\par \cf1 midi_write_end\cf0 
+\par \cf1 midi_write_MThd\cf0 
+\par \cf1 midi_write_MTrk_begin\cf0 
+\par \cf1 midi_write_MTrk_tempo\cf0 
+\par \cf1\f1 m\f2 idi_write_MTrk_instrument\cf0 
+\par \cf1 midi_write_MTrk_noteON\cf0 
+\par \cf1 midi_write_MTrk_noteOFF_all\cf2 
+\par \cf1 midi_write_MTrk_noteOFF\cf0 
+\par \cf1 midi_write_MTrk_end\cf0 
+\par \cf1 midi_write_MTrk_command\cf0 
+\par \cf1\b\f3\fs30 Refer to the .gm6 version to read the explanation of scripts (in script files)\b0\f0\fs24 
+\par 
+\par \f3 -Channel: (0-15) It is like the track, most of the time you could use 0.
+\par -Pan: (0-255) It sets which speaker to play on. Lower (ex. 0) plays on the left speaker. Higher (ex. 255) plays on the right speaker
+\par -Instruments: (0-174)  0-127 are instruments.
+\par \cf0\lang1024\f4\fs20    \tab 0 \cf3 "Acoustic Grand"\cf0 
+\par       1 \cf3 "Bright Acoustic"\cf0 
+\par       2 \cf3 "Electric Grand"\cf0 
+\par       3 \cf3 "Honky-Tonk"\cf0 
+\par       4 \cf3 "Electric Piano 1"\cf0 
+\par       5 \cf3 "Electric Piano 2"\cf0 
+\par       6 \cf3 "Harpsichord"\cf0 
+\par       7 \cf3 "Clav"\cf0 
+\par       8 \cf3 "Celesta"\cf0 
+\par       9 \cf3 "Glockenspiel"\cf0 
+\par       10 \cf3 "Music Box"\cf0 
+\par       11 \cf3 "Vibraphone"\cf0 
+\par       12 \cf3 "Marimba"\cf0 
+\par       13 \cf3 "Xylophone"\cf0 
+\par       14 \cf3 "Tubular Bells"\cf0 
+\par       15 \cf3 "Dulcimer"\cf0 
+\par       16 \cf3 "Drawbar Organ"\cf0 
+\par       17 \cf3 "Percussive Organ"\cf0 
+\par       18 \cf3 "Rock Organ"\cf0 
+\par       19 \cf3 "Church Organ"\cf0 
+\par       20 \cf3 "Reed Organ"\cf0 
+\par       21 \cf3 "Accoridan"\cf0 
+\par       22 \cf3 "Harmonica"\cf0 
+\par       23 \cf3 "Tango Accordian"\cf0 
+\par       24 \cf3 "Acoustic Guitar (nylon)"\cf0 
+\par       25 \cf3 "Acoustic Guitar (steel)"\cf0 
+\par       26 \cf3 "Electric Guitar (jazz)"\cf0 
+\par       27 \cf3 "Electric Guitar (clean)"\cf0 
+\par       28 \cf3 "Electric Guitar (muted)"\cf0 
+\par       29 \cf3 "Overdriven Guitar"\cf0 
+\par       30 \cf3 "Distortion Guitar"\cf0 
+\par       31 \cf3 "Guitar Harmonics"\cf0 
+\par       32 \cf3 "Acoustic Bass"\cf0 
+\par       33 \cf3 "Electric Bass (finger)"\cf0 
+\par       34 \cf3 "Electric Bass (pick)"\cf0 
+\par       35 \cf3 "Fretless Bass"\cf0 
+\par       36 \cf3 "Slap Bass 1"\cf0 
+\par       37 \cf3 "Slap Bass 2"\cf0 
+\par       38 \cf3 "Synth Bass 1"\cf0 
+\par       39 \cf3 "Synth Bass 2"\cf0 
+\par       40 \cf3 "Violin"\cf0 
+\par       41 \cf3 "Viola"\cf0 
+\par       42 \cf3 "Cello"\cf0 
+\par       43 \cf3 "Contrabass"\cf0 
+\par       44 \cf3 "Tremolo Strings"\cf0 
+\par       45 \cf3 "Pizzicato Strings"\cf0 
+\par       46 \cf3 "Orchestral Strings"\cf0 
+\par       47 \cf3 "Timpani"\cf0 
+\par       48 \cf3 "String Ensemble 1"\cf0 
+\par       49 \cf3 "String Ensemble 2"\cf0 
+\par       50 \cf3 "SynthStrings 1"\cf0 
+\par       51 \cf3 "SynthStrings 2"\cf0 
+\par       52 \cf3 "Choir Aahs"\cf0 
+\par       53 \cf3 "Voice Oohs"\cf0 
+\par       54 \cf3 "Synth Voice"\cf0 
+\par       55 \cf3 "Orchestra Hit"\cf0 
+\par       56 \cf3 "Trumpet"\cf0 
+\par       57 \cf3 "Trombone"\cf0 
+\par       58 \cf3 "Tuba"\cf0 
+\par       59 \cf3 "Muted Trumpet"\cf0 
+\par       60 \cf3 "French Horn"\cf0 
+\par       61 \cf3 "Brass Section"\cf0 
+\par       62 \cf3 "SynthBrass 1"\cf0 
+\par       63 \cf3 "SynthBrass 2"\cf0 
+\par       64 \cf3 "Soprano Sax"\cf0 
+\par       65 \cf3 "Alto Sax"\cf0 
+\par       66 \cf3 "Tenor Sax"\cf0 
+\par       67 \cf3 "Baritone Sax"\cf0 
+\par       68 \cf3 "Oboe"\cf0 
+\par       69 \cf3 "English Horn"\cf0 
+\par       70 \cf3 "Bassoon"\cf0 
+\par       71 \cf3 "Clarinet"\cf0 
+\par       72 \cf3 "Piccolo"\cf0 
+\par       73 \cf3 "Flute"\cf0 
+\par       74 \cf3 "Recorder"\cf0 
+\par       75 \cf3 "Pan Flute"\cf0 
+\par       76 \cf3 "Blown Bottle"\cf0 
+\par       77 \cf3 "Skakuhachi"\cf0 
+\par       78 \cf3 "Whistle"\cf0 
+\par       79 \cf3 "Ocarina"\cf0 
+\par       80 \cf3 "Lead 1 (square)"\cf0 
+\par       81 \cf3 "Lead 2 (sawtooth)"\cf0 
+\par       82 \cf3 "Lead 3 (calliope)"\cf0 
+\par       83 \cf3 "Lead 4 (chiff)"\cf0 
+\par       84 \cf3 "Lead 5 (charang)"\cf0 
+\par       85 \cf3 "Lead 6 (voice)"\cf0 
+\par       86 \cf3 "Lead 7 (fifths)"\cf0 
+\par       87 \cf3 "Lead 8 (bass+lead)"\cf0 
+\par       88 \cf3 "Pad 1 (new age)"\cf0 
+\par       89 \cf3 "Pad 2 (warm)"\cf0 
+\par       90 \cf3 "Pad 3 (polysynth)"\cf0 
+\par       91 \cf3 "Pad 4 (choir)"\cf0 
+\par       92 \cf3 "Pad 5 (bowed)"\cf0 
+\par       93 \cf3 "Pad 6 (metallic)"\cf0 
+\par       94 \cf3 "Pad 7 (halo)"\cf0 
+\par       95 \cf3 "Pad 8 (sweep)"\cf0 
+\par       96 \cf3 "FX 1 (rain)"\cf0 
+\par       97 \cf3 "FX 2 (soundtrack)"\cf0 
+\par       98 \cf3 "FX 3 (crystal)"\cf0 
+\par       99 \cf3 "FX 4 (atmosphere)"\cf0 
+\par       100 \cf3 "FX 5 (brightness)"\cf0 
+\par       101 \cf3 "FX 6 (goblins)"\cf0 
+\par       102 \cf3 "FX 7 (echoes)"\cf0 
+\par       103 \cf3 "FX 8 (sci-fi)"\cf0 
+\par       104 \cf3 "Sitar"\cf0 
+\par       105 \cf3 "Banjo"\cf0 
+\par       106 \cf3 "Shamisen"\cf0 
+\par       107 \cf3 "Koto"\cf0 
+\par       108 \cf3 "Kalimba"\cf0 
+\par       109 \cf3 "Bagpipe"\cf0 
+\par       110 \cf3 "Fiddle"\cf0 
+\par       111 \cf3 "Shanai"\cf0 
+\par       112 \cf3 "Tinkle Bell"\cf0 
+\par       113 \cf3 "Agogo"\cf0 
+\par       114 \cf3 "Steel Drums"\cf0 
+\par       115 \cf3 "Woodblock"\cf0 
+\par       116 \cf3 "Taiko Drum"\cf0 
+\par       117 \cf3 "Melodic Tom"\cf0 
+\par       118 \cf3 "Synth Drum"\cf0 
+\par       119 \cf3 "Reverse Cymbal"\cf0 
+\par       120 \cf3 "Guitar Fret Noise"\cf0 
+\par       121 \cf3 "Breath Noise"\cf0 
+\par       122 \cf3 "Seashore"\cf0 
+\par       123 \cf3 "Bird Tweet"\cf0 
+\par       124 \cf3 "Telephone ring"\cf0 
+\par       125 \cf3 "Helicopter"\cf0 
+\par       126 \cf3 "Applause"\cf0 
+\par       127 \cf3 "Gunshot"\cf0 
+\par       128 \cf3 "Acoustic Bass Drum"\cf0 
+\par       129 \cf3 "Bass Drum 1"\cf0 
+\par       130 \cf3 "Side Stick"\cf0 
+\par       131 \cf3 "Acoustic Snare"\cf0 
+\par       132 \cf3 "Hand Clap"\cf0 
+\par       133 \cf3 "Electric Snare"\cf0 
+\par       134 \cf3 "Low Floor Tom"\cf0 
+\par       135 \cf3 "Closed Hi-Hat"\cf0 
+\par       136 \cf3 "High Floor Tom"\cf0 
+\par       137 \cf3 "Pedal Hi-Hat"\cf0 
+\par       138 \cf3 "Low Tom"\cf0 
+\par       139 \cf3 "Open Hi-Hat"\cf0 
+\par       140 \cf3 "Low-Mid Tom"\cf0 
+\par       141 \cf3 "Hi-Mid Tom"\cf0 
+\par       142 \cf3 "Crash Cymbal 1"\cf0 
+\par       143 \cf3 "High Tom"\cf0 
+\par       144 \cf3 "Ride Cymbal 1"\cf0 
+\par       145 \cf3 "Chinese Cymbal"\cf0 
+\par       146 \cf3 "Ride Bell"\cf0 
+\par       147 \cf3 "Tambourine"\cf0 
+\par       148 \cf3 "Splash Cymbal"\cf0 
+\par       149 \cf3 "Cowbell"\cf0 
+\par       150 \cf3 "Crash Cymbal 2"\cf0 
+\par       151 \cf3 "Vibraslap"\cf0 
+\par       152 \cf3 "Ride Cymbal 2"\cf0 
+\par       153 \cf3 "Hi Bongo"\cf0 
+\par       154 \cf3 "Low Bongo"\cf0 
+\par       155 \cf3 "Mute Hi Conga"\cf0 
+\par       156 \cf3 "Open Hi Conga"\cf0 
+\par       157 \cf3 "Low Conga"\cf0 
+\par       158 \cf3 "High Timbale"\cf0 
+\par       159 \cf3 "Low Timbale"\cf0 
+\par       160 \cf3 "High Agogo"\cf0 
+\par       161 \cf3 "Low Agogo"\cf0 
+\par       162 \cf3 "Cabasa"\cf0 
+\par       163 \cf3 "Maracas"\cf0 
+\par       164 \cf3 "Short Whistle"\cf0 
+\par       165 \cf3 "Long Whistle"\cf0 
+\par       166 \cf3 "Short Guiro"\cf0 
+\par       167 \cf3 "Long Guiro"\cf0 
+\par       168 \cf3 "Claves"\cf0 
+\par       169 \cf3 "Hi Wood Block"\cf0 
+\par       170 \cf3 "Low Wood Block"\cf0 
+\par       171 \cf3 "Mute Cuica"\cf0 
+\par       172 \cf3 "Open Cuica"\cf0 
+\par       173 \cf3 "Mute Triangle"\cf0 
+\par       174 \cf3 "Open Triangle"
+\par \cf1 -Pitch: ex. Middle C (on instruments [0-127]) it is 60; (on the precussing [127+]) It changes differently use channel 9/10
+\par -Volume (0-255) 0 = low; 255 = high
+\par 
+\par For the midi writing help refer to the function commenting, or the GMC forum topic.\lang1033\f0\fs24 
+\par 
+\par }
+ 

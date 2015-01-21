@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="dStatementAdd" type="RESOURCE"/>
+  <resource name="dResponseAdd" type="RESOURCE"/>
+  <resource name="draw_self" type="RESOURCE"/>
+</resources>

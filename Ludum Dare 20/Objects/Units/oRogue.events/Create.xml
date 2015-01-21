@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">/*
+    Sets up the character's health and variables   
+*/
+event_inherited()
+cooldown = 120
+maxrange = 100
+target = -1
+hp = 75
+hpt = hp
+damage = 20
+arrowid = -1
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

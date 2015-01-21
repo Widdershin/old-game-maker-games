@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oCharacter" type="RESOURCE"/>
+  <resource name="oLadder" type="RESOURCE"/>
+  <resource name="oMoveableSolid" type="RESOURCE"/>
+  <resource name="oMovingSolid" type="RESOURCE"/>
+  <resource name="oPlatform" type="RESOURCE"/>
+  <resource name="oSolid" type="RESOURCE"/>
+  <resource name="oWater" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if newRoom
+{
+    draw_set_color(c_red)
+    if newRoomValid
+        draw_set_color(c_lime)
+    draw_rectangle(newRoomX1, newRoomY1, newRoomX2, newRoomY2, 1)
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

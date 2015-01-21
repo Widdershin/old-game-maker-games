@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="player" type="RESOURCE"/>
+  <resource name="wall" type="RESOURCE"/>
+  <resource name="gun" type="RESOURCE"/>
+  <resource name="engun" type="RESOURCE"/>
+  <resource name="bullet" type="RESOURCE"/>
+  <resource name="grenade" type="RESOURCE"/>
+  <resource name="explosion" type="RESOURCE"/>
+  <resource name="char" type="RESOURCE"/>
+  <resource name="enemy" type="RESOURCE"/>
+  <resource name="music" type="RESOURCE"/>
+  <resource name="fov" type="RESOURCE"/>
+  <resource name="control" type="RESOURCE"/>
+  <resource name="solid" type="RESOURCE"/>
+  <resource name="spawner" type="RESOURCE"/>
+  <resource name="oBackground" type="RESOURCE"/>
+</resources>

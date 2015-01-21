@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">/*
+    Controls the gate and moves characters out of the way underneath it
+*/
+if down[ident]
+{
+    if image_index &lt; image_number-1
+    {
+        image_speed = 1
+    }
+    else
+    {
+        image_speed = 0
+        solid = false
+    }
+}
+else
+{
+    if image_index &gt; 0
+    {
+        image_speed = -1
+        solid = true
+        squish = instance_place(x,y,oLiving)
+        if squish
+        {
+            if squish.x &gt;= x+16
+            {
+                with(squish)
+                {
+                    move_outside_solid(0,128)
+                }
+            }
+            if squish.x &lt;= x+15   
+            {
+                   with(squish)
+                {
+                    move_outside_solid(180,128)
+                }
+            }
+        }
+    }
+    else
+    {
+        image_speed = 0
+        solid = true
+    }
+}
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

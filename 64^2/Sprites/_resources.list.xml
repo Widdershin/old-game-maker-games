@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="splayer" type="RESOURCE"/>
+  <resource name="swall" type="RESOURCE"/>
+  <resource name="sgun" type="RESOURCE"/>
+  <resource name="sbullet" type="RESOURCE"/>
+  <resource name="sgrenade" type="RESOURCE"/>
+  <resource name="sexplosion" type="RESOURCE"/>
+  <resource name="sexplosion2" type="RESOURCE"/>
+  <resource name="schar" type="RESOURCE"/>
+  <resource name="schar2" type="RESOURCE"/>
+  <resource name="schar3" type="RESOURCE"/>
+  <resource name="senemy" type="RESOURCE"/>
+  <resource name="senemy2" type="RESOURCE"/>
+  <resource name="senemy3" type="RESOURCE"/>
+  <resource name="sfov" type="RESOURCE"/>
+  <resource name="sspawner" type="RESOURCE"/>
+</resources>

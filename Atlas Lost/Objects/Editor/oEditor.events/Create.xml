@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">globalvar mode, prevMode;
+globalvar skel, anim, map;
+globalvar partList;
+
+skel = 0
+anim = 1
+map = 2
+
+mode = skel
+prevMode = -4
+
+partList = ds_list_create()
+
+addPart(sTorso)
+addPart(sLeg)
+addPart(sFoot)
+addPart(sArm)
+addPart(sForeArm)
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

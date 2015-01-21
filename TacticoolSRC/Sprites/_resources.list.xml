@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sOverlay" type="RESOURCE"/>
+  <resource name="sHud" type="RESOURCE"/>
+  <resource name="Lab" type="GROUP"/>
+  <resource name="Snow" type="GROUP"/>
+  <resource name="sPlay" type="RESOURCE"/>
+  <resource name="sPlayA" type="RESOURCE"/>
+  <resource name="sQuit" type="RESOURCE"/>
+  <resource name="sQuitA" type="RESOURCE"/>
+  <resource name="sEmpty" type="RESOURCE"/>
+  <resource name="sNextWave" type="RESOURCE"/>
+</resources>

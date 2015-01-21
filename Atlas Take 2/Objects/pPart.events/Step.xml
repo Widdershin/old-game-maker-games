@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">angleFacing += angleVelocity
+image_angle = parent.image_angle + angleOffset + angleFacing
+
+offsetLen = point_distance(0, 0, offsetX, offsetY)
+offsetDir = point_direction(0, 0, offsetX * yScale, offsetY)
+
+x = parent.x + lengthdir_x(offsetLen, offsetDir + parent.image_angle)
+y = parent.y + lengthdir_y(offsetLen, offsetDir + parent.image_angle)
+
+if angleFacing &gt; 360
+{
+	   angleFacing -= 360
+}
+if angleFacing &lt; 0
+{
+	   angleFacing += 360
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

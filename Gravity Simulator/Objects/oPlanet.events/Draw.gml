@@ -1,0 +1,7 @@
+draw_sprite(sprite_index,-1,x,y)
+surface_set_target(trail)
+draw_set_color(color)
+draw_line(x,y,xprevious,yprevious)
+surface_reset_target()
+draw_surface(trail,0,0)
+draw_circle(x,y,mass/2,1)                     

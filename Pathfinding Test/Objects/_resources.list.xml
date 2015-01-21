@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oWall" type="RESOURCE"/>
+  <resource name="oControl" type="RESOURCE"/>
+  <resource name="oStart" type="RESOURCE"/>
+  <resource name="oEnd" type="RESOURCE"/>
+  <resource name="oMove" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sWarrior" type="RESOURCE"/>
+  <resource name="sWall" type="RESOURCE"/>
+  <resource name="sSelected" type="RESOURCE"/>
+  <resource name="sHead" type="RESOURCE"/>
+</resources>

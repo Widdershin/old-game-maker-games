@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oTileTest" type="RESOURCE"/>
+  <resource name="oControl" type="RESOURCE"/>
+  <resource name="GUI" type="GROUP"/>
+  <resource name="oIsoBase" type="RESOURCE"/>
+  <resource name="oIsoBlue" type="RESOURCE"/>
+  <resource name="oIsoGreen" type="RESOURCE"/>
+  <resource name="oIsoRed" type="RESOURCE"/>
+  <resource name="oIsoTile" type="RESOURCE"/>
+  <resource name="oIsoTileXY" type="RESOURCE"/>
+  <resource name="oIsoShadow" type="RESOURCE"/>
+  <resource name="oIsoParent" type="RESOURCE"/>
+  <resource name="oHover" type="RESOURCE"/>
+</resources>

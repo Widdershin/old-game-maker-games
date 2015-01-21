@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if x &lt; 0-(sprite_width)-50
+{
+    instance_destroy()
+    if pylonid
+    {
+        with(pylonid)
+        {instance_destroy()}
+    }
+    if turretid
+    {
+        with(turretid)
+        {
+            with gunid instance_destroy()
+            instance_destroy()
+        }
+    }
+}
+if !test {hspeed = -sp*0.5}
+if pylonid
+{
+    pylonid.x = x
+    pylonid.y = y-14
+}
+if turretid
+{
+    turretid.x = x
+    turretid.y = y-14
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sOverlay" type="RESOURCE"/>
+  <resource name="sHud" type="RESOURCE"/>
+  <resource name="Lab" type="GROUP"/>
+  <resource name="Snow" type="GROUP"/>
+</resources>

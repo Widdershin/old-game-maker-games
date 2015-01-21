@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if mouse_check_button_pressed(mb_left)
+{
+    xoff = x-(mouse_x div 32) * 32
+    yoff = y-(mouse_y div 32) * 32
+    draw = 1
+}
+if keyboard_check_pressed(vk_space)
+{
+    image_angle += 270
+}
+if abs(image_angle) &gt; 359 {image_angle -= 360}
+if abs(image_angle) &lt; 0 {image_angle += 360}
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

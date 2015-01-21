@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="2">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">/*
+    Controls the character's abilities
+*/
+if !target
+{
+    range = maxrange
+    with(oEnemy)
+    {
+        if distance_to_object(other) &lt; other.range &amp;&amp; !collision_line(x,y,other.x,other.y,oGround,1,1)
+        {
+            other.range = distance_to_object(other)
+            other.target = id
+        }      
+    }
+    prevoffset = 0
+}
+else
+{
+    hspeed = 0
+    rot = 0
+    if !instance_exists(target)
+    {
+        if !root
+        {
+            hspeed = xscale
+        }
+        target = -1
+    }
+    /*if instance_exists(arrowid)
+    {
+        if arrowid.gravity = 0 &amp;&amp; cooldown &lt; 90
+        {
+            prevoffset = (target.y-arrowid.y)/2
+        }
+    }*/
+    if distance_to_object(target) &gt; maxrange || collision_line(x,y,target.x,target.y,oGround,1,1) 
+    {
+        if !root
+        {
+            target = -1
+            hspeed = xscale
+        }
+    }
+    if !cooldown &amp;&amp; target
+    {
+        arrowid = instance_create(x,y,oArrow)
+        arrowid.direction = point_direction(x,y,target.x,target.y) + prevoffset
+        arrowid.speed = 10
+        arrowid.damage = damage
+        arrowid.stuck = false
+        sound_play(soArrow)
+        cooldown = 120
+    }
+}
+if cooldown &gt; 0
+{
+    cooldown -= 1
+}
+with oTrap
+{
+    if distance_to_object(other) &lt; 64
+    {
+        if !collision_line(x,y,other.x,other.y,oGround,1,1)
+        {
+            seen = true
+        }
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

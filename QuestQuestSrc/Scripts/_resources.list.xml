@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="script_get_index" type="RESOURCE"/>
+  <resource name="print" type="RESOURCE"/>
+  <resource name="error" type="RESOURCE"/>
+  <resource name="InGame" type="GROUP"/>
+</resources>

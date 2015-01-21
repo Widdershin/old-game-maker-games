@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sStopButton" type="RESOURCE"/>
+  <resource name="sStopButton1" type="RESOURCE"/>
+  <resource name="sJumpButton" type="RESOURCE"/>
+  <resource name="sRightButton" type="RESOURCE"/>
+  <resource name="sLeftButton" type="RESOURCE"/>
+  <resource name="sButtonDoor" type="RESOURCE"/>
+  <resource name="sButtonMenu" type="RESOURCE"/>
+  <resource name="sButton" type="RESOURCE"/>
+  <resource name="sButtonButton" type="RESOURCE"/>
+  <resource name="sHealButton" type="RESOURCE"/>
+  <resource name="sLevitateButton" type="RESOURCE"/>
+  <resource name="sDisarmButton" type="RESOURCE"/>
+  <resource name="sRogueButton" type="RESOURCE"/>
+  <resource name="sMageButton" type="RESOURCE"/>
+  <resource name="sWarriorButton" type="RESOURCE"/>
+  <resource name="sRestartButton" type="RESOURCE"/>
+  <resource name="sPlayButton" type="RESOURCE"/>
+  <resource name="sEditButton" type="RESOURCE"/>
+  <resource name="sLevelSelect" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sbSnow" type="RESOURCE"/>
+  <resource name="sbLab" type="RESOURCE"/>
+  <resource name="sbMenu" type="RESOURCE"/>
+  <resource name="sPickup" type="RESOURCE"/>
+  <resource name="sDrop" type="RESOURCE"/>
+  <resource name="sThrow" type="RESOURCE"/>
+  <resource name="sHit" type="RESOURCE"/>
+  <resource name="sExplode" type="RESOURCE"/>
+</resources>

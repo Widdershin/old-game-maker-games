@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oPlayer" type="RESOURCE"/>
+  <resource name="oBall" type="RESOURCE"/>
+  <resource name="oGoal" type="RESOURCE"/>
+  <resource name="oWall" type="RESOURCE"/>
+  <resource name="oControl" type="RESOURCE"/>
+  <resource name="oLaser" type="RESOURCE"/>
+  <resource name="oBallLaser" type="RESOURCE"/>
+  <resource name="oSpawn" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="depthCheck" type="RESOURCE"/>
+  <resource name="isoVec" type="RESOURCE"/>
+  <resource name="shadowGen" type="RESOURCE"/>
+  <resource name="isoRoundX" type="RESOURCE"/>
+  <resource name="isoRoundY" type="RESOURCE"/>
+</resources>
