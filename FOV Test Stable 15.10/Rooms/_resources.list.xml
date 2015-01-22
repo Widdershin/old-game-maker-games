@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources>
-  <resource name="rMenu" type="RESOURCE"/>
-  <resource name="rDungeon" type="RESOURCE"/>
-  <resource name="rCombat" type="RESOURCE"/>
-</resources>

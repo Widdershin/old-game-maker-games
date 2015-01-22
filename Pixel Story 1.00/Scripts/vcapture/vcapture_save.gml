@@ -1,1 +1,0 @@
-return external_call( global.fvcapture_save);

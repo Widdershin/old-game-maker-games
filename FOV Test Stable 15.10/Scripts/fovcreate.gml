@@ -1,2 +1,0 @@
-cansee = false
-haveseen = true

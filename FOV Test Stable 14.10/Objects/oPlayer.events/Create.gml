@@ -1,2 +1,0 @@
-canmove = true
-tryopen = false

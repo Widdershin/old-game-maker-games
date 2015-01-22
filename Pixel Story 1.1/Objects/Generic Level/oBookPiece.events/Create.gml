@@ -1,2 +1,0 @@
-emitTime = 10
-

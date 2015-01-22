@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources>
-  <resource name="vcapture_init" type="RESOURCE"/>
-  <resource name="vcapture_begin" type="RESOURCE"/>
-  <resource name="vcapture_frame" type="RESOURCE"/>
-  <resource name="vcapture_save" type="RESOURCE"/>
-</resources>

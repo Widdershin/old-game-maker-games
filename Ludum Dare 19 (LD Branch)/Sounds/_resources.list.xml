@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources>
-  <resource name="sPlace" type="RESOURCE"/>
-  <resource name="sNoPlace" type="RESOURCE"/>
-  <resource name="sRotate" type="RESOURCE"/>
-  <resource name="soConfused" type="RESOURCE"/>
-  <resource name="sbMain" type="RESOURCE"/>
-  <resource name="soMenu" type="RESOURCE"/>
-</resources>

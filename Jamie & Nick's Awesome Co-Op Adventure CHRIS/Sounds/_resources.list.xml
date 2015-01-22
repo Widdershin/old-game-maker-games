@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources>
-  <resource name="soShoot" type="RESOURCE"/>
-  <resource name="soPlace" type="RESOURCE"/>
-  <resource name="soJump" type="RESOURCE"/>
-</resources>

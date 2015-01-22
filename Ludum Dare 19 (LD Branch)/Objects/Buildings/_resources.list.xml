@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources>
-  <resource name="oLab" type="RESOURCE"/>
-  <resource name="oCafe" type="RESOURCE"/>
-  <resource name="oToilet" type="RESOURCE"/>
-  <resource name="oPath" type="RESOURCE"/>
-  <resource name="oSpawn" type="RESOURCE"/>
-  <resource name="oExit" type="RESOURCE"/>
-</resources>

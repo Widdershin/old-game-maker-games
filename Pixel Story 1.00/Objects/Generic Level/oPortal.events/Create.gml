@@ -1,1 +1,0 @@
-emitTime = 10

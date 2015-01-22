@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources>
-  <resource name="oFloor" type="RESOURCE"/>
-  <resource name="oWall" type="RESOURCE"/>
-  <resource name="oDoor" type="RESOURCE"/>
-  <resource name="oDoorOpen" type="RESOURCE"/>
-  <resource name="oWindow" type="RESOURCE"/>
-</resources>
