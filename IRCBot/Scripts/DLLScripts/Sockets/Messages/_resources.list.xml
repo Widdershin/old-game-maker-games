@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources>
-  <resource name="sendmessage" type="RESOURCE"/>
-  <resource name="receivemessage" type="RESOURCE"/>
-  <resource name="peekmessage" type="RESOURCE"/>
-  <resource name="setformat" type="RESOURCE"/>
-</resources>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources>
-  <resource name="TCP" type="GROUP"/>
-  <resource name="UDP" type="GROUP"/>
-  <resource name="Messages" type="GROUP"/>
-  <resource name="Misc" type="GROUP"/>
-</resources>

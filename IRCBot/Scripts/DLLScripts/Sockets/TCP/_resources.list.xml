@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources>
-  <resource name="tcpconnect" type="RESOURCE"/>
-  <resource name="tcplisten" type="RESOURCE"/>
-  <resource name="tcpaccept" type="RESOURCE"/>
-  <resource name="tcpip" type="RESOURCE"/>
-  <resource name="setnagle" type="RESOURCE"/>
-  <resource name="tcpconnected" type="RESOURCE"/>
-</resources>
