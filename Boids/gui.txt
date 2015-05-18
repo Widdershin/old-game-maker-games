@@ -1,0 +1,6 @@
+draw_text(32,room_height/5+32,". Red   (Low) : "+string(redlow))
+draw_text(32,room_height/5+64,". Red   (High): "+string(redhigh))
+draw_text(32,room_height/5+96,". Green (Low) : "+string(greenlow))
+draw_text(32,room_height/5+128,". Green (High): "+string(greenhigh))
+draw_text(32,room_height/5+160,". Blue  (Low) : "+string(bluelow))
+draw_text(32,room_height/5+192,". Blue  (High): "+string(bluehigh))
