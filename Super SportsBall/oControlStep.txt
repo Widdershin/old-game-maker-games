@@ -1,0 +1,59 @@
+
+minX = room_width
+minY = room_height
+
+maxX = 0
+maxY = 0
+
+with(oPlayer)
+{
+    if x < other.minX || other.minX = -1
+        other.minX = x
+    if y < other.minY || other.minY = -1
+        other.minY = y
+        
+    if x > other.maxX || other.maxX = -1
+        other.maxX = x
+    if y > other.maxY || other.maxY = -1
+        other.maxY = y
+}
+
+
+minX -= (minX / 10) * 2
+minY -= (minY / 10) * 2
+maxX *= 1.2
+maxY *= 1.2
+
+view_enabled = true
+
+/*if (minY + maxY) > room_height
+{
+	
+	//maxY -= (minY + maxY) - room_height
+	minY -= (minY + maxY) - room_height
+}*/
+
+
+view_enabled[0] = false
+
+view_xview[0] = minX
+view_yview[0] = minY
+
+vWidth = (maxX - minX)
+vHeight = (maxY - minY)
+
+if vHeight = 0
+{
+    vHeight = 1
+}
+
+if (vWidth / vHeight) >= aspectRatio
+{
+    view_wview[0] = vWidth
+    view_hview[0] = vWidth / aspectRatio
+}
+else
+{
+    view_wview[0] = vHeight * aspectRatio
+    view_hview[0] = vHeight
+}

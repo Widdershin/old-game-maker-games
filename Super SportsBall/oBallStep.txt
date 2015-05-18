@@ -1,0 +1,63 @@
+//game_restart()
+
+
+
+/*if instance_place(x, y + vspeed, oWall)
+{
+	movingUp = false
+	if vspeed < 0
+		movingUp = true
+	move_contact_solid(270 - (movingUp * 180), vspeed)
+	vspeed *= -1
+	speed *= collideFric
+}
+
+if instance_place(x + hspeed, y, oWall)
+{
+	movingLeft = false
+	if hspeed < 0
+		movingLeft = true
+	move_contact_solid(0 + (movingLeft * 180), hspeed)
+	hspeed *= -1
+	speed *= collideFric
+}*/
+
+if instance_place(x + hspeed, y + vspeed, oWall)
+{
+	move_contact_solid(direction, speed)
+	wall = instance_place(x, y, oWall)
+	if wall
+	{
+		move_outside_solid(point_direction(wall.x, wall.y, x, y), speed)
+	}
+	if instance_place(x + hspeed, y, oWall)
+	{
+		hspeed *= -collideFric
+	}
+	if instance_place(x, y + vspeed, oWall)
+	{
+		vspeed *= -collideFric
+	}
+}
+
+if instance_place(x, y + vspeed + 1, oWall)
+{	
+	onGround = true
+	if round(vspeed) = 0
+	{
+		gravity = 0
+	}
+}
+else
+{
+	onGround = false
+}
+
+if onGround 
+{
+	hspeed *= hFric
+}
+else
+{
+	gravity = gravityMax
+}

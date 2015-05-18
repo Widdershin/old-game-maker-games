@@ -1,0 +1,20 @@
+hFric = 0.96
+
+//hspeed = random(20) - 10
+
+gravityMax = 0.4
+gravity = gravityMax
+
+collideFric = 0.7
+
+held = false
+
+onGround = false
+
+defaultColor = make_color_rgb(150, 150, 150)
+currentColor = c_black
+
+chargeDraw = 0
+chargeDrawMax = 30
+
+depth = -1
